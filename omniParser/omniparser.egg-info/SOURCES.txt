@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+omniparser/__init__.py
+omniparser/constants.py
+omniparser/parser.py
+omniparser/utils.py
+omniparser.egg-info/PKG-INFO
+omniparser.egg-info/SOURCES.txt
+omniparser.egg-info/dependency_links.txt
+omniparser.egg-info/requires.txt
+omniparser.egg-info/top_level.txt

@@ -1,0 +1,400 @@
+[
+	{
+		"billing_provider": [
+			{
+				"hierarch_id_number": "1",
+				"provider_name": [
+					{
+						"address_information_1": "240 NEW YORK DR",
+						"city_name": "FORT WASHINGTON",
+						"entity_id_code": "85",
+						"entity_type_qualifier": "2",
+						"name_last_or_organization": "LOCKMAN &  LUBELL PEDIATRIC ASSOCIA"
+					}
+				]
+			}
+		],
+		"date": "20210805",
+		"patient_details": [
+			{
+				"claims": [
+					{
+						"claim_submt_identifier": "265323",
+						"health_care_code_info_1": "ABK",
+						"monetary_amount": "150",
+						"rendering_provider_name": [
+							{
+								"entity_id_code": "82",
+								"entity_type_qualifier": "1",
+								"name_first": "ANDREW",
+								"name_last_or_organization": "LUBELL"
+							}
+						],
+						"service_lines": [
+							{
+								"assigned_number": "1",
+								"comp_med_proced_id": "HC",
+								"date_time_format_qual": "D8",
+								"date_time_period": "20210803",
+								"date_time_qualifier": "472",
+								"monetary_amount": "150"
+							}
+						]
+					}
+				],
+				"hierarch_id_number": "3",
+				"indivdual_relat_code": "19",
+				"patient_name": [
+					{
+						"address_information_1": "324 DOCS CT",
+						"city_name": "AMBLER",
+						"date_time_format_qual": "D8",
+						"date_time_period": "20150326",
+						"entity_id_code": "QC",
+						"entity_type_qualifier": "1",
+						"gender_code": "M",
+						"name_first": "QcName2",
+						"name_last_or_organization": "QCName1"
+					}
+				]
+			}
+		],
+		"receiver": [
+			{
+				"entity_id_code": "40",
+				"entity_type_qualifier": "2",
+				"name_last_or_organization": "AMERIHEALTH OF NEW JERSEY"
+			}
+		],
+		"submitter": [
+			{
+				"comm_number_1": "2156530600",
+				"comm_number_qual_1": "TE",
+				"contact_funct_code": "IC",
+				"entity_id_code": "41",
+				"entity_type_qualifier": "2",
+				"name_last_or_organization": "LOCKMAN &  LUBELL PEDIATRIC ASSOCIA"
+			}
+		],
+		"subscriber_provider": [
+			{
+				"hierarch_id_number": "2",
+				"payer_name": [
+					{
+						"address_information_1": "PO BOX 211184",
+						"city_name": "EAGAN",
+						"entity_id_code": "PR",
+						"entity_type_qualifier": "2",
+						"name_last_or_organization": "AMERIHEALTH OF NEW JERSEY"
+					}
+				],
+				"payer_resp_seq_no_code": "P",
+				"subscriber_name": [
+					{
+						"entity_id_code": "IL",
+						"entity_type_qualifier": "1",
+						"name_last_or_organization": "TestILName1"
+					}
+				]
+			}
+		],
+		"time": "1504",
+		"ts_control_number": "265323",
+		"ts_id_code": "837"
+	},
+	{
+		"billing_provider": [
+			{
+				"hierarch_id_number": "1",
+				"provider_code": "BI",
+				"provider_name": [
+					{
+						"address_information_1": "240 NEW YORK DR",
+						"city_name": "FORT WASHINGTON",
+						"entity_id_code": "85",
+						"entity_type_qualifier": "2",
+						"name_last_or_organization": "LOCKMAN &  LUBELL PEDIATRIC ASSOCIA"
+					}
+				]
+			}
+		],
+		"date": "20210805",
+		"patient_details": [
+			{
+				"claims": [
+					{
+						"claim_submt_identifier": "264536",
+						"health_care_code_info_1": "ABK",
+						"monetary_amount": "1105",
+						"rendering_provider_name": [
+							{
+								"entity_id_code": "82",
+								"entity_type_qualifier": "1",
+								"name_first": "ANDREW",
+								"name_last_or_organization": "LUBELL"
+							}
+						],
+						"service_lines": [
+							{
+								"assigned_number": "1",
+								"comp_med_proced_id": "HC",
+								"date_time_format_qual": "D8",
+								"date_time_period": "20210720",
+								"date_time_qualifier": "472",
+								"monetary_amount": "180"
+							},
+							{
+								"assigned_number": "2",
+								"comp_med_proced_id": "HC",
+								"date_time_format_qual": "D8",
+								"date_time_period": "20210720",
+								"date_time_qualifier": "472",
+								"drug_identification": [
+									{
+										"composite_unit_of_meas": "ML",
+										"prod_serv_id_qual": "N4",
+										"product_service_id": "58160097620",
+										"quantity": ".5"
+									}
+								],
+								"monetary_amount": "230"
+							},
+							{
+								"assigned_number": "3",
+								"comp_med_proced_id": "HC",
+								"date_time_format_qual": "D8",
+								"date_time_period": "20210720",
+								"date_time_qualifier": "472",
+								"monetary_amount": "44"
+							},
+							{
+								"assigned_number": "4",
+								"comp_med_proced_id": "HC",
+								"date_time_format_qual": "D8",
+								"date_time_period": "20210720",
+								"date_time_qualifier": "472",
+								"drug_identification": [
+									{
+										"composite_unit_of_meas": "ML",
+										"prod_serv_id_qual": "N4",
+										"product_service_id": "00006412102",
+										"quantity": ".5"
+									}
+								],
+								"monetary_amount": "374"
+							},
+							{
+								"assigned_number": "5",
+								"comp_med_proced_id": "HC",
+								"date_time_format_qual": "D8",
+								"date_time_period": "20210720",
+								"date_time_qualifier": "472",
+								"monetary_amount": "44"
+							},
+							{
+								"assigned_number": "6",
+								"comp_med_proced_id": "HC",
+								"date_time_format_qual": "D8",
+								"date_time_period": "20210720",
+								"date_time_qualifier": "472",
+								"drug_identification": [
+									{
+										"composite_unit_of_meas": "ML",
+										"prod_serv_id_qual": "N4",
+										"product_service_id": "49281040010",
+										"quantity": ".5"
+									}
+								],
+								"monetary_amount": "101"
+							},
+							{
+								"assigned_number": "7",
+								"comp_med_proced_id": "HC",
+								"date_time_format_qual": "D8",
+								"date_time_period": "20210720",
+								"date_time_qualifier": "472",
+								"monetary_amount": "44"
+							},
+							{
+								"assigned_number": "8",
+								"comp_med_proced_id": "HC",
+								"date_time_format_qual": "D8",
+								"date_time_period": "20210720",
+								"date_time_qualifier": "472",
+								"monetary_amount": "88"
+							}
+						]
+					}
+				],
+				"hierarch_id_number": "3",
+				"indivdual_relat_code": "19",
+				"patient_name": [
+					{
+						"address_information_1": "1077 STONY BROOK DRIVE",
+						"city_name": "BLUE BELL",
+						"date_time_format_qual": "D8",
+						"date_time_period": "19990810",
+						"entity_id_code": "QC",
+						"entity_type_qualifier": "1",
+						"gender_code": "M",
+						"name_first": "QcName4",
+						"name_last_or_organization": "Qcname3"
+					}
+				]
+			}
+		],
+		"receiver": [
+			{
+				"entity_id_code": "40",
+				"entity_type_qualifier": "2",
+				"name_last_or_organization": "HIGHMARK BLUE SHIELD FEDERAL"
+			}
+		],
+		"submitter": [
+			{
+				"comm_number_1": "2156530600",
+				"comm_number_qual_1": "TE",
+				"contact_funct_code": "IC",
+				"entity_id_code": "41",
+				"entity_type_qualifier": "2",
+				"name_last_or_organization": "LOCKMAN &  LUBELL PEDIATRIC ASSOCIA"
+			}
+		],
+		"subscriber_provider": [
+			{
+				"hierarch_id_number": "2",
+				"payer_name": [
+					{
+						"address_information_1": "PO BOX 890062",
+						"city_name": "CAMP HILL",
+						"entity_id_code": "PR",
+						"entity_type_qualifier": "2",
+						"name_last_or_organization": "HIGHMARK BLUE SHIELD FEDERAL"
+					}
+				],
+				"payer_resp_seq_no_code": "P",
+				"subscriber_name": [
+					{
+						"entity_id_code": "IL",
+						"entity_type_qualifier": "1",
+						"name_last_or_organization": "ILName3"
+					}
+				]
+			}
+		],
+		"time": "1504",
+		"ts_control_number": "264536",
+		"ts_id_code": "837"
+	},
+	{
+		"billing_provider": [
+			{
+				"hierarch_id_number": "1",
+				"provider_name": [
+					{
+						"address_information_1": "240 NEW YORK DR",
+						"city_name": "FORT WASHINGTON",
+						"entity_id_code": "85",
+						"entity_type_qualifier": "2",
+						"name_last_or_organization": "LOCKMAN &  LUBELL PEDIATRIC ASSOCIA"
+					}
+				]
+			}
+		],
+		"date": "20210805",
+		"patient_details": [
+			{
+				"claims": [
+					{
+						"claim_submt_identifier": "265312",
+						"health_care_code_info_1": "ABK",
+						"monetary_amount": "215",
+						"rendering_provider_name": [
+							{
+								"entity_id_code": "82",
+								"entity_type_qualifier": "1",
+								"name_first": "ANDREW",
+								"name_last_or_organization": "LUBELL"
+							}
+						],
+						"service_lines": [
+							{
+								"assigned_number": "1",
+								"comp_med_proced_id": "HC",
+								"date_time_format_qual": "D8",
+								"date_time_period": "20210803",
+								"date_time_qualifier": "472",
+								"monetary_amount": "180"
+							},
+							{
+								"assigned_number": "2",
+								"comp_med_proced_id": "HC",
+								"date_time_format_qual": "D8",
+								"date_time_period": "20210803",
+								"date_time_qualifier": "472",
+								"monetary_amount": "35"
+							}
+						]
+					}
+				],
+				"hierarch_id_number": "3",
+				"indivdual_relat_code": "19",
+				"patient_name": [
+					{
+						"address_information_1": "58 BERRYWOOD LN",
+						"city_name": "DRESHER",
+						"date_time_format_qual": "D8",
+						"date_time_period": "20010206",
+						"entity_id_code": "QC",
+						"entity_type_qualifier": "1",
+						"gender_code": "F",
+						"name_first": "Qcname6",
+						"name_last_or_organization": "QcName5"
+					}
+				]
+			}
+		],
+		"receiver": [
+			{
+				"entity_id_code": "40",
+				"entity_type_qualifier": "2",
+				"name_last_or_organization": "INDEPENDENCE ADMINISTRATORS"
+			}
+		],
+		"submitter": [
+			{
+				"comm_number_1": "2156530600",
+				"comm_number_qual_1": "TE",
+				"contact_funct_code": "IC",
+				"entity_id_code": "41",
+				"entity_type_qualifier": "2",
+				"name_last_or_organization": "LOCKMAN &  LUBELL PEDIATRIC ASSOCIA"
+			}
+		],
+		"subscriber_provider": [
+			{
+				"hierarch_id_number": "2",
+				"payer_name": [
+					{
+						"address_information_1": "PO BOX 21974",
+						"city_name": "EAGAN",
+						"entity_id_code": "PR",
+						"entity_type_qualifier": "2",
+						"name_last_or_organization": "INDEPENDENCE ADMINISTRATORS"
+					}
+				],
+				"payer_resp_seq_no_code": "P",
+				"subscriber_name": [
+					{
+						"entity_id_code": "IL",
+						"entity_type_qualifier": "1",
+						"name_last_or_organization": "IlName5"
+					}
+				]
+			}
+		],
+		"time": "1504",
+		"ts_control_number": "265312",
+		"ts_id_code": "837"
+	}
+]

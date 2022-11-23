@@ -1,0 +1,1039 @@
+{
+    "parser_settings": {
+        "version": "omni.2.1",
+        "file_format_type": "edi"
+    },
+    "file_declaration": {
+        "segment_delimiter": "~",
+        "element_delimiter": "*",
+        "component_delimiter": ":",
+        "ignore_crlf": true,
+        "segment_declarations": [
+            {
+                "name": "ISA",
+                "child_segments": [
+                    {
+                        "name": "GS",
+                        "child_segments": [
+                            {
+                                "name": "HealthCareClaims", "type": "segment_group", "min": 0, "max": -1, "is_target": true,
+                                "child_segments": [
+                                    { "name": "ST", "elements": [
+                                        { "name": "ts_id_code", "index": 1 },
+                                        { "name": "ts_control_number", "index": 2 },
+                                        { "name": "imple_conv_reference", "index": 3 }
+                                    ]},
+                                    { "name": "BHT", "elements": [
+                                        { "name": "hierarch_stuct_code", "index": 1 },
+                                        { "name": "ts_purpose_code", "index": 2 },
+                                        { "name": "reference_ident", "index": 3 },
+                                        { "name": "date", "index": 4 },
+                                        { "name": "time", "index": 5 },
+                                        { "name": "transaction_type_code", "index": 6 } 
+                                    ]},
+                                    {
+                                        "name": "SubmitterName-1000A", "type": "segment_group",
+                                        "child_segments": [
+                                            { "name": "NM1", "elements": [
+                                                { "name": "entity_id_code", "index": 1 },
+                                                { "name": "entity_type_qualifier", "index": 2 },
+                                                { "name": "name_last_or_organization", "index": 3 },
+                                                { "name": "name_first", "index": 4, "default": "" },
+                                                { "name": "name_middle", "index": 5, "default": "" },
+                                                { "name": "id_code_qualifier", "index": 8 },
+                                                { "name": "id_code", "index": 9 }
+                                            ]},
+                                            { "name": "PER", "min": 1, "max": 2, "elements": [
+                                                { "name": "contact_funct_code", "index": 1 },
+                                                { "name": "name", "index": 2, "default": "" },
+                                                { "name": "comm_number_qual_1", "index": 3 },
+                                                { "name": "comm_number_1", "index": 4 },
+                                                { "name": "comm_number_qual_2", "index": 5, "default": "" },
+                                                { "name": "comm_number_2", "index": 6, "default": "" },
+                                                { "name": "comm_number_qual_3", "index": 7, "default": "" },
+                                                { "name": "comm_number_3", "index": 8, "default": "" }
+                                            ]}
+                                        ]
+                                    },
+                                    {
+                                        "name": "ReceiverName-1000B", "type": "segment_group",
+                                        "child_segments": [
+                                            { "name": "NM1", "elements": [
+                                                { "name": "entity_id_code", "index": 1 },
+                                                { "name": "entity_type_qualifier", "index": 2 },
+                                                { "name": "name_last_or_organization", "index": 3 },
+                                                { "name": "id_code_qualifier", "index": 8 },
+                                                { "name": "id_code", "index": 9 }
+                                            ]}
+                                        ]
+                                    },
+                                    {
+                                        "name": "BillingProviderHierarchicalLevel-2000A", "type": "segment_group",
+                                        "child_segments": [
+                                            { "name": "HL", "elements": [
+                                                { "name": "hierarch_id_number", "index": 1 },
+                                                { "name": "hierarch_level_code", "index": 3 },
+                                                { "name": "hierarch_child_code", "index": 4 }
+                                            ]},
+                                            { "name": "PRV", "min": 0, "max": 1, "elements": [
+                                                { "name": "provider_code", "index": 1 },
+                                                { "name": "reference_ident_qual", "index": 2 },
+                                                { "name": "reference_ident", "index": 3 }
+                                            ]},
+                                            { "name": "CUR", "min": 0, "max": 1, "elements": [
+                                                { "name": "entity_id_code", "index": 1 },
+                                                { "name": "currency_code", "index": 2 }
+                                            ]},
+                                            {
+                                                "name": "BillingProviderName-2010AA", "type": "segment_group",
+                                                "child_segments": [
+                                                    { "name": "NM1", "elements": [
+                                                        { "name": "entity_id_code", "index": 1 },
+                                                        { "name": "entity_type_qualifier", "index": 2 },
+                                                        { "name": "name_last_or_organization", "index": 3 },
+                                                        { "name": "name_first", "index": 4, "default": "" },
+                                                        { "name": "name_middle", "index": 5, "default": "" },
+                                                        { "name": "name_suffix", "index": 7, "default": "" },
+                                                        { "name": "id_code_qualifier", "index": 8, "default": "" },
+                                                        { "name": "id_code", "index": 9, "default": "" }
+                                                    ]},
+                                                    { "name": "N3", "elements": [
+                                                        { "name": "address_information_1", "index": 1 },
+                                                        { "name": "address_information_2", "index": 2, "default": "" }
+                                                    ]},
+                                                    { "name": "N4", "elements": [
+                                                        { "name": "city_name", "index": 1, "default": "" },
+                                                        { "name": "state_or_prov_code", "index": 2, "default": "" },
+                                                        { "name": "postal_code", "index": 3, "default": "" },
+                                                        { "name": "country_code", "index": 4, "default": ""},
+                                                        { "name": "country_sub_code", "index": 7, "default": ""}
+                                                    ]},
+                                                    { "name": "REF", "min": 1, "max": 2, "elements": [
+                                                        { "name": "reference_ident_qual", "index": 1 },
+                                                        { "name": "reference_ident", "index": 2 }
+                                                    ]},
+                                                    { "name": "PER", "min": 0, "max": 2, "elements": [
+                                                        { "name": "contact_funct_code", "index": 1 },
+                                                        { "name": "name", "index": 2, "default": "" },
+                                                        { "name": "comm_number_qual_1", "index": 3 },
+                                                        { "name": "comm_number_1", "index": 4 },
+                                                        { "name": "comm_number_qual_2", "index": 5, "default": "" },
+                                                        { "name": "comm_number_2", "index": 6, "default": "" },
+                                                        { "name": "comm_number_qual_3", "index": 7, "default": "" },
+                                                        { "name": "comm_number_3", "index": 8, "default": "" }
+                                                    ]}
+                                                ]
+                                            },
+                                            {
+                                                "name": "PayToRelatedNames-2010AX", "type": "segment_group", "min": 0, "max": 2,
+                                                "child_segments": [
+                                                    { "name": "NM1", "min": 0, "max": 1, "elements": [
+                                                        { "name": "entity_id_code", "index": 1 },
+                                                        { "name": "entity_type_qualifier", "index": 2 }
+                                                    ]},
+                                                    { "name": "N3", "min": 0, "max": 1, "elements": [
+                                                        { "name": "address_information_1", "index": 1 },
+                                                        { "name": "address_information_2", "index": 2, "default": "" }
+                                                    ]},
+                                                    { "name": "N4", "min": 0, "max": 1, "elements": [
+                                                        { "name": "city_name", "index": 1, "default": "" },
+                                                        { "name": "state_or_prov_code", "index": 2, "default": "" },
+                                                        { "name": "postal_code", "index": 3, "default": "" },
+                                                        { "name": "country_code", "index": 4, "default": "" },
+                                                        { "name": "country_sub_code", "index": 7, "default": "" }
+                                                    ]},
+                                                    { "name": "REF", "min": 0, "max": 2, "elements": [
+                                                        { "name": "reference_ident_qual", "index": 1 },
+                                                        { "name": "reference_ident", "index": 2 }
+                                                    ]}
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "SubscriberHierarchicalLevel-2000B", "type": "segment_group",
+                                        "child_segments": [
+                                            { "name": "HL", "elements": [
+                                                { "name": "hierarch_id_number", "index": 1 },
+                                                { "name": "hierarch_parent_id", "index": 2 },
+                                                { "name": "hierarch_level_code", "index": 3 },
+                                                { "name": "hierarch_child_code", "index": 4 }
+                                            ]},
+                                            { "name": "SBR", "elements": [
+                                                { "name": "payer_resp_seq_no_code", "index": 1 },
+                                                { "name": "indivdual_relat_code", "index": 2, "default": "" },
+                                                { "name": "reference_ident", "index": 3, "default": "" },
+                                                { "name": "name", "index": 4, "default": "" },
+                                                { "name": "insurance_type_code", "index": 5, "default": "" },
+                                                { "name": "claim_file_ind_code", "index": 9, "default": "" }
+                                            ]},
+                                            { "name": "PAT", "min": 0, "max": 1, "elements": [
+                                                { "name": "date_time_format_qual", "index": 5, "default": "" },
+                                                { "name": "date_time_period", "index": 6, "default": "" },
+                                                { "name": "unit_basis_meas_code", "index": 7, "default": "" },
+                                                { "name": "weight", "index": 8, "default": "" },
+                                                { "name": "yes_no_cond_resp_code", "index": 9, "default": "" }
+                                            ]},
+                                            {
+                                                "name": "SubscriberName-2010BA", "type": "segment_group",
+                                                "child_segments": [
+                                                    { "name": "NM1", "elements": [
+                                                        { "name": "entity_id_code", "index": 1 },
+                                                        { "name": "entity_type_qualifier", "index": 2 },
+                                                        { "name": "name_last_or_organization", "index": 3 },
+                                                        { "name": "name_first", "index": 4, "default": "" },
+                                                        { "name": "name_middle", "index": 5, "default": "" },
+                                                        { "name": "name_suffix", "index": 7, "default": "" },
+                                                        { "name": "id_code_qualifier", "index": 8 },
+                                                        { "name": "id_code", "index": 9 }
+                                                    ]},
+                                                    { "name": "N3", "min": 0, "max": 1, "elements": [
+                                                        { "name": "address_information_1", "index": 1 },
+                                                        { "name": "address_information_2", "index": 2, "default": "" }
+                                                    ]},
+                                                    { "name": "N4", "min": 0, "max": 1, "elements": [
+                                                        { "name": "city_name", "index": 1, "default": "" },
+                                                        { "name": "state_or_prov_code", "index": 2, "default": "" },
+                                                        { "name": "postal_code", "index": 3, "default": "" },
+                                                        { "name": "country_code", "index": 4, "default": "" },
+                                                        { "name": "country_sub_code", "index": 7, "default": "" }
+                                                    ]},
+                                                    { "name": "DMG", "min": 0, "max": 1, "elements": [
+                                                        { "name": "date_time_format_qual", "index": 1 },
+                                                        { "name": "date_time_period", "index": 2 },
+                                                        { "name": "gender_code", "index": 3 }
+                                                    ]},
+                                                    { "name": "REF", "min": 0, "max": 2, "elements": [
+                                                        { "name": "reference_ident_qual", "index": 1 },
+                                                        { "name": "reference_ident", "index": 2 }
+                                                    ]},
+                                                    { "name": "PER", "min": 0, "max": 1, "elements": [
+                                                        { "name": "contact_funct_code", "index": 1 },
+                                                        { "name": "name", "index": 2, "default": "" },
+                                                        { "name": "comm_number_qual_1", "index": 3 },
+                                                        { "name": "comm_number_1", "index": 4 },
+                                                        { "name": "comm_number_qual_2", "index": 5, "default": "" },
+                                                        { "name": "comm_number_2", "index": 6, "default": "" },
+                                                        { "name": "comm_number_qual_3", "index": 7, "default": "" },
+                                                        { "name": "comm_number_3", "index": 8, "default": "" }
+                                                    ]}
+                                                ]
+                                            },
+                                            {
+                                                "name": "PayerName-2010BB", "type": "segment_group",
+                                                "child_segments": [
+                                                    { "name": "NM1", "elements": [
+                                                        { "name": "entity_id_code", "index": 1 },
+                                                        { "name": "entity_type_qualifier", "index": 2 },
+                                                        { "name": "name_last_or_organization", "index": 3 },
+                                                        { "name": "id_code_qualifier", "index": 8 },
+                                                        { "name": "id_code", "index": 9 }
+                                                    ]},
+                                                    { "name": "N3", "min": 0, "max": 1, "elements": [
+                                                        { "name": "address_information_1", "index": 1 },
+                                                        { "name": "address_information_2", "index": 2, "default": "" }
+                                                    ]},
+                                                    { "name": "N4", "min": 0, "max": 1, "elements": [
+                                                        { "name": "city_name", "index": 1, "default": "" },
+                                                        { "name": "state_or_prov_code", "index": 2, "default": "" },
+                                                        { "name": "postal_code", "index": 3, "default": "" },
+                                                        { "name": "country_code", "index": 4, "default": "" },
+                                                        { "name": "country_sub_code", "index": 7, "default": "" }
+                                                    ]},
+                                                    { "name": "REF", "min": 0, "max": 5, "elements": [
+                                                        { "name": "reference_ident_qual", "index": 1 },
+                                                        { "name": "reference_ident", "index": 2 }
+                                                    ]}
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "PatientHierarchicalLevel-2000C", "type": "segment_group", "min": 1, "max": -1,
+                                        "child_segments": [
+                                            { "name": "HL", "min": 0, "max": 1, "elements": [
+                                                { "name": "hierarch_id_number", "index": 1 },
+                                                { "name": "hierarch_parent_id", "index": 2 },
+                                                { "name": "hierarch_level_code", "index": 3 },
+                                                { "name": "hierarch_child_code", "index": 4 }
+                                            ]},
+                                            { "name": "PAT", "elements": [
+                                                { "name": "indivdual_relat_code", "index": 1 },
+                                                { "name": "date_time_format_qual", "index": 5, "default": "" },
+                                                { "name": "date_time_period", "index": 6, "default": "" },
+                                                { "name": "unit_basis_meas_code", "index": 7, "default": "" },
+                                                { "name": "weight", "index": 8, "default": "" },
+                                                { "name": "yes_no_cond_resp_code", "index": 9, "default": "" }
+                                            ]},
+                                            {
+                                                "name": "PatientName-2010CA", "type": "segment_group",
+                                                "child_segments": [
+                                                    { "name": "NM1", "elements": [
+                                                        { "name": "entity_id_code", "index": 1 },
+                                                        { "name": "entity_type_qualifier", "index": 2 },
+                                                        { "name": "name_last_or_organization", "index": 3 },
+                                                        { "name": "name_first", "index": 4 },
+                                                        { "name": "name_middle", "index": 5 , "default": ""},
+                                                        { "name": "name_suffix", "index": 7 , "default": ""}
+                                                    ]},
+                                                    { "name": "N3", "elements": [
+                                                        { "name": "address_information_1", "index": 1 },
+                                                        { "name": "address_information_2", "index": 2 , "default": ""}
+                                                    ]},
+                                                    { "name": "N4", "elements": [
+                                                        { "name": "city_name", "index": 1 },
+                                                        { "name": "state_or_prov_code", "index": 2 },
+                                                        { "name": "postal_code", "index": 3 },
+                                                        { "name": "country_code", "index": 4 , "default": ""},
+                                                        { "name": "country_sub_code", "index": 7 , "default": ""}
+                                                    ]},
+                                                    { "name": "DMG", "elements": [
+                                                        { "name": "date_time_format_qual", "index": 1 },
+                                                        { "name": "date_time_period", "index": 2 },
+                                                        { "name": "gender_code", "index": 3 }
+                                                    ]},
+                                                    { "name": "REF", "min": 0, "max": 1, "elements": [
+                                                        { "name": "reference_ident_qual", "index": 1 },
+                                                        { "name": "reference_ident", "index": 2 }
+                                                    ]},
+                                                    { "name": "PER", "min": 0, "max": 1, "elements": [
+                                                        { "name": "contact_funct_code", "index": 1 },
+                                                        { "name": "name", "index": 2 },
+                                                        { "name": "comm_number_qual_1", "index": 3 },
+                                                        { "name": "comm_number_1", "index": 4 },
+                                                        { "name": "comm_number_qual_2", "index": 5 },
+                                                        { "name": "comm_number_2", "index": 6 }
+                                                    ]}
+                                                ]
+                                            },
+                                            {
+                                                "name": "ClaimInformation-2300", "type": "segment_group", "min": 1, "max": 100,
+                                                "child_segments": [
+                                                    { "name": "CLM", "elements": [
+                                                        { "name": "claim_submt_identifier", "index": 1 },
+                                                        { "name": "monetary_amount", "index": 2 },
+                                                        { "name": "health_care_serv_loc", "index": 5 },
+                                                        { "name": "yes_no_cond_resp_code_1", "index": 6 },
+                                                        { "name": "provider_accept_code", "index": 7 },
+                                                        { "name": "yes_no_cond_resp_code_2", "index": 8 },
+                                                        { "name": "release_of_info_code", "index": 9 },
+                                                        { "name": "patient_sig_source_code", "index": 10, "default": "" },
+                                                        { "name": "related_causes_info", "index": 11, "default": "" },
+                                                        { "name": "special_prog_code", "index": 12, "default": "" },
+                                                        { "name": "delay_reason_code", "index": 20, "default": "" }
+                                                    ]},
+                                                    { "name": "DTP", "min": 0, "max": 17, "elements": [
+                                                        { "name": "date_time_qualifier", "index": 1 },
+                                                        { "name": "date_time_format_qual", "index": 2 },
+                                                        { "name": "date_time_period", "index": 3 }
+                                                    ]},
+                                                    { "name": "PWK", "min": 0, "max": 10, "elements": [
+                                                        { "name": "report_type_code", "index": 1 },
+                                                        { "name": "report_transm_code", "index": 2 },
+                                                        { "name": "id_code_qualifier", "index": 5, "default": "" },
+                                                        { "name": "id_code", "index": 6, "default": "" }
+                                                    ]},
+                                                    { "name": "CN1", "min": 0, "max": 1, "elements": [
+                                                        { "name": "contract_type_code", "index": 1 },
+                                                        { "name": "monetary_amount", "index": 2, "default": "" },
+                                                        { "name": "allow_chrg_percent", "index": 3, "default": "" },
+                                                        { "name": "reference_ident", "index": 4, "default": "" },
+                                                        { "name": "terms_disc_percent", "index": 5, "default": "" },
+                                                        { "name": "version_id", "index": 6 }
+                                                    ]},
+                                                    { "name": "AMT", "min": 0, "max": 1, "elements": [
+                                                        { "name": "amount_qual_code", "index": 1 },
+                                                        { "name": "monetary_amount", "index": 2 }
+                                                    ]},
+                                                    { "name": "REF", "min": 0, "max": 14, "elements": [
+                                                        { "name": "reference_ident_qual", "index": 1 },
+                                                        { "name": "reference_ident", "index": 2 }
+                                                    ]},
+                                                    { "name": "K3", "min": 0, "max": 10, "elements": [
+                                                        { "name": "fixed_form_information", "index": 1 }
+                                                    ]},
+                                                    { "name": "NTE", "min": 0, "max": 1, "elements": [
+                                                        { "name": "note_ref_code", "index": 1 },
+                                                        { "name": "description", "index": 2 }
+                                                    ]},
+                                                    { "name": "CR1", "min": 0, "max": 1, "elements": [
+                                                        { "name": "unit_basis_meas_code_1", "index": 1, "default": "" },
+                                                        { "name": "weight", "index": 2, "default": "" },
+                                                        { "name": "ambulance_reason_code", "index": 4 },
+                                                        { "name": "unit_basis_meas_code_2", "index": 5 },
+                                                        { "name": "quantity", "index": 6 },
+                                                        { "name": "description_1", "index": 9, "default": "" },
+                                                        { "name": "description_2", "index": 10, "default": "" }
+                                                    ]},
+                                                    { "name": "CR2", "min": 0, "max": 1, "elements": [
+                                                        { "name": "nature_of_cond_code", "index": 8 },
+                                                        { "name": "description_1", "index": 10, "default": "" },
+                                                        { "name": "description_2", "index": 11, "default": "" }
+                                                    ]},
+                                                    { "name": "CRC", "min": 0, "max": 8, "elements": [
+                                                        { "name": "code_category", "index": 1 },
+                                                        { "name": "yes_no_cond_resp_code", "index": 2 },
+                                                        { "name": "certificate_cond_code_1", "index": 3 },
+                                                        { "name": "certificate_cond_code_2", "index": 4, "default": "" },
+                                                        { "name": "certificate_cond_code_3", "index": 5, "default": "" },
+                                                        { "name": "certificate_cond_code_4", "index": 6, "default": "" },
+                                                        { "name": "certificate_cond_code_5", "index": 7, "default": "" }
+                                                    ]},
+                                                    { "name": "HI", "min": 1, "max": 4, "elements": [
+                                                        { "name": "health_care_code_info_1", "index": 1 },
+                                                        { "name": "health_care_code_info_2", "index": 2, "default": "" },
+                                                        { "name": "health_care_code_info_3", "index": 3, "default": "" },
+                                                        { "name": "health_care_code_info_4", "index": 4, "default": "" },
+                                                        { "name": "health_care_code_info_5", "index": 5, "default": "" },
+                                                        { "name": "health_care_code_info_6", "index": 6, "default": "" },
+                                                        { "name": "health_care_code_info_7", "index": 7, "default": "" },
+                                                        { "name": "health_care_code_info_8", "index": 8, "default": "" },
+                                                        { "name": "health_care_code_info_9", "index": 9, "default": "" },
+                                                        { "name": "health_care_code_info_10", "index": 10, "default": "" },
+                                                        { "name": "health_care_code_info_11", "index": 11, "default": "" },
+                                                        { "name": "health_care_code_info_12", "index": 12, "default": "" }
+                                                    ]},
+                                                    { "name": "HCP", "min": 0, "max": 1, "elements": [
+                                                        { "name": "pricing_methodology", "index": 1 },
+                                                        { "name": "monetary_amount_1", "index": 2 },
+                                                        { "name": "monetary_amount_2", "index": 3, "default": "" },
+                                                        { "name": "reference_ident_1", "index": 4, "default": "" },
+                                                        { "name": "rate", "index": 5, "default": "" },
+                                                        { "name": "reference_ident_2", "index": 6, "default": "" },
+                                                        { "name": "monetary_amount_3", "index": 7, "default": "" },
+                                                        { "name": "reject_reason_code", "index": 13, "default": "" },
+                                                        { "name": "policy_comp_code", "index": 14, "default": "" },
+                                                        { "name": "exception_code", "index": 15, "default": "" }
+                                                    ]},
+                                                    {
+                                                        "name": "ProviderOrLocationRelatedNames-2310X", "type": "segment_group", "min": 0, "max": -1,
+                                                        "child_segments": [
+                                                            { "name": "NM1", "min": 0, "max": 1, "elements": [
+                                                                { "name": "entity_id_code", "index": 1 },
+                                                                { "name": "entity_type_qualifier", "index": 2 },
+                                                                { "name": "name_last_or_organization", "index": 3 },
+                                                                { "name": "name_first", "index": 4, "default": "" },
+                                                                { "name": "name_middle", "index": 5, "default": "" },
+                                                                { "name": "name_suffix", "index": 7, "default": "" },
+                                                                { "name": "id_code_qualifier", "index": 8, "default": "" },
+                                                                { "name": "id_code", "index": 9, "default": "" }
+                                                            ]},
+                                                            { "name": "N3", "min": 0, "max": 1, "elements": [
+                                                                { "name": "address_information_1", "index": 1 },
+                                                                { "name": "address_information_2", "index": 2, "default": "" }
+                                                            ]},
+                                                            { "name": "N4", "min": 0, "max": 1, "elements": [
+                                                                { "name": "city_name", "index": 1 },
+                                                                { "name": "state_or_prov_code", "index": 2, "default": "" },
+                                                                { "name": "postal_code", "index": 3, "default": "" },
+                                                                { "name": "country_code", "index": 4, "default": "" },
+                                                                { "name": "country_sub_code", "index": 7, "default": "" }
+                                                            ]},
+                                                            { "name": "PRV", "min": 0, "max": 1, "elements": [
+                                                                { "name": "provider_code", "index": 1 },
+                                                                { "name": "reference_ident_qual", "index": 2 },
+                                                                { "name": "reference_ident", "index": 3 }
+                                                            ]},
+                                                            { "name": "REF", "min": 0, "max": 4, "elements": [
+                                                                { "name": "reference_ident_qual", "index": 1 },
+                                                                { "name": "reference_ident", "index": 2 }
+                                                            ]},
+                                                            { "name": "PER", "min": 0, "max": 1, "elements": [
+                                                                { "name": "contact_funct_code", "index": 1 },
+                                                                { "name": "name", "index": 2, "default": "" },
+                                                                { "name": "comm_number_qual_1", "index": 3 },
+                                                                { "name": "comm_number_1", "index": 4 },
+                                                                { "name": "comm_number_qual_2", "index": 5, "default": "" },
+                                                                { "name": "comm_number_2", "index": 6, "default": "" }
+                                                            ]}
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "OtherSubscriberInformation-2320", "type": "segment_group", "min": 0, "max": 10,
+                                                        "child_segments": [
+                                                            { "name": "SBR", "min": 0, "max": 1, "elements": [
+                                                                { "name": "payer_resp_seq_no_code", "index": 1 },
+                                                                { "name": "indivdual_relat_code", "index": 2 },
+                                                                { "name": "reference_ident", "index": 3, "default": "" },
+                                                                { "name": "name", "index": 4, "default": "" },
+                                                                { "name": "insurance_type_code", "index": 5, "default": "" },
+                                                                { "name": "claim_file_ind_code", "index": 9, "default": "" }
+                                                            ]},
+                                                            { "name": "CAS", "min": 0, "max": 5, "elements": [
+                                                                { "name": "claim_adj_group_code", "index": 1 },
+                                                                { "name": "claim_adj_reason_code_1", "index": 2 },
+                                                                { "name": "monetary_amount_1", "index": 3 },
+                                                                { "name": "quantity_1", "index": 4, "default": "" },
+                                                                { "name": "claim_adj_reason_code_2", "index": 5, "default": "" },
+                                                                { "name": "monetary_amount_2", "index": 6, "default": "" },
+                                                                { "name": "quantity_2", "index": 7, "default": "" },
+                                                                { "name": "claim_adj_reason_code_3", "index": 8, "default": "" },
+                                                                { "name": "monetary_amount_3", "index": 9, "default": "" },
+                                                                { "name": "quantity_3", "index": 10, "default": "" },
+                                                                { "name": "claim_adj_reason_code_4", "index": 11, "default": "" },
+                                                                { "name": "monetary_amount_4", "index": 12, "default": "" },
+                                                                { "name": "quantity_4", "index": 13, "default": "" },
+                                                                { "name": "claim_adj_reason_code_5", "index": 14, "default": "" },
+                                                                { "name": "monetary_amount_5", "index": 15, "default": "" },
+                                                                { "name": "quantity_5", "index": 16, "default": "" },
+                                                                { "name": "claim_adj_reason_code_6", "index": 17, "default": "" },
+                                                                { "name": "monetary_amount_6", "index": 18, "default": "" },
+                                                                { "name": "quantity_6", "index": 19, "default": "" }
+                                                            ]},
+                                                            { "name": "AMT", "min": 0, "max": 3, "elements": [
+                                                                { "name": "amount_qual_code", "index": 1 },
+                                                                { "name": "monetary_amount", "index": 2 }
+                                                            ]},
+                                                            { "name": "OI", "elements": [
+                                                                { "name": "yes_no_cond_resp_code", "index": 3 },
+                                                                { "name": "patient_sig_source_code", "index": 4, "default": "" },
+                                                                { "name": "release_of_info_code", "index": 6 }
+                                                            ]},
+                                                            { "name": "MOA", "min": 0, "max": 1, "elements": [
+                                                                { "name": "percent", "index": 1, "default": "" },
+                                                                { "name": "monetary_amount_1", "index": 2, "default": "" },
+                                                                { "name": "reference_ident_1", "index": 3, "default": "" },
+                                                                { "name": "reference_ident_2", "index": 4, "default": "" },
+                                                                { "name": "reference_ident_3", "index": 5, "default": "" },
+                                                                { "name": "reference_ident_4", "index": 6, "default": "" },
+                                                                { "name": "reference_ident_5", "index": 7, "default": "" },
+                                                                { "name": "monetary_amount_2", "index": 8, "default": "" },
+                                                                { "name": "monetary_amount_3", "index": 9, "default": "" }
+                                                            ]},
+                                                            {
+                                                                "name": "OtherSubscriberName-2330A", "type": "segment_group",
+                                                                "child_segments": [
+                                                                    { "name": "NM1", "elements": [
+                                                                        { "name": "entity_id_code", "index": 1 },
+                                                                        { "name": "entity_type_qualifier", "index": 2 },
+                                                                        { "name": "name_last_or_organization", "index": 3 },
+                                                                        { "name": "name_first", "index": 4, "default": "" },
+                                                                        { "name": "name_middle", "index": 5, "default": "" },
+                                                                        { "name": "name_suffix", "index": 7, "default": "" },
+                                                                        { "name": "id_code_qualifier", "index": 8 },
+                                                                        { "name": "id_code", "index": 9 }
+                                                                    ]},
+                                                                    { "name": "N3", "min": 0, "max": 1, "elements": [
+                                                                        { "name": "address_information_1", "index": 1 },
+                                                                        { "name": "address_information_2", "index": 2, "default": "" }
+                                                                    ]},
+                                                                    { "name": "N4", "elements": [
+                                                                        { "name": "city_name", "index": 1 },
+                                                                        { "name": "state_or_prov_code", "index": 2, "default": "" },
+                                                                        { "name": "postal_code", "index": 3, "default": "" },
+                                                                        { "name": "country_code", "index": 4, "default": "" },
+                                                                        { "name": "country_sub_code", "index": 7, "default": "" }
+                                                                    ]},
+                                                                    { "name": "REF", "min": 0, "max": 1, "elements": [
+                                                                        { "name": "reference_ident_qual", "index": 1 },
+                                                                        { "name": "reference_ident", "index": 2 }
+                                                                    ]}
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "OtherPayerName-2330B", "type": "segment_group",
+                                                                "child_segments": [
+                                                                    { "name": "NM1", "elements": [
+                                                                        { "name": "entity_id_code", "index": 1 },
+                                                                        { "name": "entity_type_qualifier", "index": 2 },
+                                                                        { "name": "name_last_or_organization", "index": 3 },
+                                                                        { "name": "id_code_qualifier", "index": 8 },
+                                                                        { "name": "id_code", "index": 9 }
+                                                                    ]},
+                                                                    { "name": "N3", "min": 0, "max": 1, "elements": [
+                                                                        { "name": "address_information_1", "index": 1 },
+                                                                        { "name": "address_information_2", "index": 2, "default": "" }
+                                                                    ]},
+                                                                    { "name": "N4", "elements": [
+                                                                        { "name": "city_name", "index": 1 },
+                                                                        { "name": "state_or_prov_code", "index": 2, "default": "" },
+                                                                        { "name": "postal_code", "index": 3, "default": "" },
+                                                                        { "name": "country_code", "index": 4, "default": "" },
+                                                                        { "name": "country_sub_code", "index": 7, "default": "" }
+                                                                    ]},
+                                                                    { "name": "DTP", "min": 0, "max": 1, "elements": [
+                                                                        { "name": "date_time_qualifier", "index": 1 },
+                                                                        { "name": "date_time_format_qual", "index": 2 },
+                                                                        { "name": "date_time_period", "index": 3 }
+                                                                    ]},
+                                                                    { "name": "REF", "min": 0, "max": 6, "elements": [
+                                                                        { "name": "reference_ident_qual", "index": 1 },
+                                                                        { "name": "reference_ident", "index": 2 }
+                                                                    ]}
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "OtherSubscriberOrPayerRelatedName-2330X", "type": "segment_group", "min": 0, "max": -1,
+                                                                "child_segments": [
+                                                                    { "name": "NM1", "min": 0, "max": 1, "elements": [
+                                                                        { "name": "entity_id_code", "index": 1 },
+                                                                        { "name": "entity_type_qualifier", "index": 2 },
+                                                                        { "name": "name_last_or_organization", "index": 3 },
+                                                                        { "name": "name_first", "index": 4, "default": "" },
+                                                                        { "name": "name_middle", "index": 5, "default": "" },
+                                                                        { "name": "name_suffix", "index": 7, "default": "" },
+                                                                        { "name": "id_code_qualifier", "index": 8 },
+                                                                        { "name": "id_code", "index": 9 }
+                                                                    ]},
+                                                                    { "name": "N3", "min": 0, "max": 1, "elements": [
+                                                                        { "name": "address_information_1", "index": 1 },
+                                                                        { "name": "address_information_2", "index": 2, "default": "" }
+                                                                    ]},
+                                                                    { "name": "N4", "min": 0, "max": 1, "elements": [
+                                                                        { "name": "city_name", "index": 1 },
+                                                                        { "name": "state_or_prov_code", "index": 2, "default": "" },
+                                                                        { "name": "postal_code", "index": 3, "default": "" },
+                                                                        { "name": "country_code", "index": 4, "default": "" },
+                                                                        { "name": "country_sub_code", "index": 7, "default": "" }
+                                                                    ]},
+                                                                    { "name": "DTP", "min": 0, "max": 1, "elements": [
+                                                                        { "name": "date_time_qualifier", "index": 1 },
+                                                                        { "name": "date_time_format_qual", "index": 2 },
+                                                                        { "name": "date_time_period", "index": 3 }
+                                                                    ]},
+                                                                    { "name": "REF", "min": 0, "max": 6, "elements": [
+                                                                        { "name": "reference_ident_qual", "index": 1 },
+                                                                        { "name": "reference_ident", "index": 2 }
+                                                                    ]}
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "ServiceLineNumber-2400", "type": "segment_group", "min": 0, "max": 50,
+                                                        "child_segments": [
+                                                            { "name": "LX", "elements": [
+                                                                { "name": "assigned_number", "index": 1 }
+                                                            ]},
+                                                            { "name": "SV1", "elements": [
+                                                                { "name": "comp_med_proced_id", "index": 1 },
+                                                                { "name": "monetary_amount", "index": 2 },
+                                                                { "name": "unit_basis_meas_code", "index": 3 },
+                                                                { "name": "quantity", "index": 4 },
+                                                                { "name": "facility_code", "index": 5, "default": "" },
+                                                                { "name": "comp_diag_code_point", "index": 7 },
+                                                                { "name": "yes_no_cond_resp_code_1", "index": 9, "default": "" },
+                                                                { "name": "yes_no_cond_resp_code_2", "index": 11, "default": "" },
+                                                                { "name": "yes_no_cond_resp_code_3", "index": 12, "default": "" },
+                                                                { "name": "copay_status_code", "index": 15, "default": "" }
+                                                            ]},
+                                                            { "name": "SV5", "min": 0, "max": 1, "elements": [
+                                                                { "name": "comp_med_proced_id", "index": 1 },
+                                                                { "name": "unit_basis_meas_code", "index": 2 },
+                                                                { "name": "quantity", "index": 3 },
+                                                                { "name": "monetary_amount_1", "index": 4 },
+                                                                { "name": "monetary_amount_2", "index": 5 },
+                                                                { "name": "frequency_code", "index": 6 }
+                                                            ]},
+                                                            { "name": "PWK", "min": 0, "max": 10, "elements": [
+                                                                { "name": "report_type_code", "index": 1 },
+                                                                { "name": "report_transm_code", "index": 2 },
+                                                                { "name": "id_code_qualifier", "index": 5, "default": "" },
+                                                                { "name": "id_code", "index": 6, "default": "" }
+                                                            ]},
+                                                            { "name": "PWK", "min": 0, "max": 1, "elements": [
+                                                                { "name": "report_type_code", "index": 1 },
+                                                                { "name": "report_transm_code", "index": 2 }
+                                                            ]},
+                                                            { "name": "CR1", "min": 0, "max": 1, "elements": [
+                                                                { "name": "unit_basis_meas_code_1", "index": 1, "default": "" },
+                                                                { "name": "weight", "index": 2, "default": "" },
+                                                                { "name": "ambulance_reason_code", "index": 4 },
+                                                                { "name": "unit_basis_meas_code_2", "index": 5 },
+                                                                { "name": "quantity", "index": 6 },
+                                                                { "name": "description_1", "index": 9, "default": "" },
+                                                                { "name": "description_2", "index": 10, "default": "" }
+                                                            ]},
+                                                            { "name": "CR3", "min": 0, "max": 1, "elements": [
+                                                                { "name": "certificate_type_code", "index": 1 },
+                                                                { "name": "unit_basis_meas_code", "index": 2 },
+                                                                { "name": "quantity", "index": 3 }
+                                                            ]},
+                                                            { "name": "CRC", "min": 0, "max": 5, "elements": [
+                                                                { "name": "code_category", "index": 1 },
+                                                                { "name": "yes_no_cond_resp_code", "index": 2 },
+                                                                { "name": "certificate_cond_code_1", "index": 3 },
+                                                                { "name": "certificate_cond_code_2", "index": 4, "default": "" },
+                                                                { "name": "certificate_cond_code_3", "index": 5, "default": "" },
+                                                                { "name": "certificate_cond_code_4", "index": 6, "default": "" },
+                                                                { "name": "certificate_cond_code_5", "index": 7, "default": "" }
+                                                            ]},
+                                                            { "name": "DTP", "min": 1, "max": 11, "elements": [
+                                                                { "name": "date_time_qualifier", "index": 1 },
+                                                                { "name": "date_time_format_qual", "index": 2 },
+                                                                { "name": "date_time_period", "index": 3 }
+                                                            ]},
+                                                            { "name": "QTY", "min": 0, "max": 2, "elements": [
+                                                                { "name": "quantity_qualifier", "index": 1 },
+                                                                { "name": "quantity", "index": 2 }
+                                                            ]},
+                                                            { "name": "MEA", "min": 0, "max": 5, "elements": [
+                                                                { "name": "measurement_ref_id_code", "index": 1 },
+                                                                { "name": "measurement_qualifier", "index": 2 },
+                                                                { "name": "measurement_value", "index": 3 }
+                                                            ]},
+                                                            { "name": "CN1", "min": 0, "max": 1, "elements": [
+                                                                { "name": "contract_type_code", "index": 1 },
+                                                                { "name": "monetary_amount", "index": 2, "default": "" },
+                                                                { "name": "allow_chrg_percent", "index": 3, "default": "" },
+                                                                { "name": "reference_ident", "index": 4, "default": "" },
+                                                                { "name": "terms_disc_percent", "index": 5, "default": "" },
+                                                                { "name": "version_id", "index": 6, "default": "" }
+                                                            ]},
+                                                            { "name": "REF", "min": 0, "max": 13, "elements": [
+                                                                { "name": "reference_ident_qual", "index": 1 },
+                                                                { "name": "reference_ident", "index": 2 }
+                                                            ]},
+                                                            { "name": "AMT", "min": 0, "max": 2, "elements": [
+                                                                { "name": "amount_qual_code", "index": 1 },
+                                                                { "name": "monetary_amount", "index": 2 }
+                                                            ]},
+                                                            { "name": "K3", "min": 0, "max": 10, "elements": [
+                                                                { "name": "fixed_form_information", "index": 1 }
+                                                            ]},
+                                                            { "name": "NTE", "min": 0, "max": 2, "elements": [
+                                                                { "name": "note_ref_code", "index": 1 },
+                                                                { "name": "description", "index": 2 }
+                                                            ]},
+                                                            { "name": "PS1", "min": 0, "max": 1, "elements": [
+                                                                { "name": "reference_ident", "index": 1 },
+                                                                { "name": "monetary_amount", "index": 2 }
+                                                            ]},
+                                                            { "name": "HCP", "min": 0, "max": 1, "elements": [
+                                                                { "name": "pricing_methodology", "index": 1 },
+                                                                { "name": "monetary_amount_1", "index": 2, "default": "" },
+                                                                { "name": "monetary_amount_2", "index": 3, "default": "" },
+                                                                { "name": "reference_ident_1", "index": 4, "default": "" },
+                                                                { "name": "rate", "index": 5, "default": "" },
+                                                                { "name": "reference_ident_2", "index": 6, "default": "" },
+                                                                { "name": "monetary_amount_3", "index": 7, "default": "" },
+                                                                { "name": "prod_serv_id_qual", "index": 9, "default": "" },
+                                                                { "name": "product_service_id", "index": 10, "default": "" },
+                                                                { "name": "unit_basis_meas_code", "index": 11, "default": "" },
+                                                                { "name": "quantity", "index": 12, "default": "" },
+                                                                { "name": "reject_reason_code", "index": 13, "default": "" },
+                                                                { "name": "policy_comp_code", "index": 14, "default": "" },
+                                                                { "name": "exception_code", "index": 15, "default": "" }
+                                                            ]},
+                                                            {
+                                                                "name": "DrugIdentification-2410", "type": "segment_group", "min": 0, "max": 1,
+                                                                "child_segments": [
+                                                                    { "name": "LIN", "min": 0, "max": 1, "elements": [
+                                                                        { "name": "prod_serv_id_qual", "index": 2 },
+                                                                        { "name": "product_service_id", "index": 3 }
+                                                                    ]},
+                                                                    { "name": "CTP", "elements": [
+                                                                        { "name": "quantity", "index": 4 },
+                                                                        { "name": "composite_unit_of_meas", "index": 5 }
+                                                                    ]},
+                                                                    { "name": "REF", "min": 0, "max": 1, "elements": [
+                                                                        { "name": "reference_ident_qual", "index": 1 },
+                                                                        { "name": "reference_ident", "index": 2 }
+                                                                    ]}
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "ProviderOrLocationRelatedNames-2420X", "type": "segment_group", "min": 0, "max": -1,
+                                                                "child_segments": [
+                                                                    { "name": "NM1", "min": 0, "max": 1, "elements": [
+                                                                        { "name": "entity_id_code", "index": 1 },
+                                                                        { "name": "entity_type_qualifier", "index": 2 },
+                                                                        { "name": "name_last_or_organization", "index": 3 },
+                                                                        { "name": "name_first", "index": 4, "default": "" },
+                                                                        { "name": "name_middle", "index": 5, "default": "" },
+                                                                        { "name": "name_suffix", "index": 7, "default": "" },
+                                                                        { "name": "id_code_qualifier", "index": 8, "default": "" },
+                                                                        { "name": "id_code", "index": 9, "default": "" }
+                                                                    ]},
+                                                                    { "name": "N3", "min": 0, "max": 1, "elements": [
+                                                                        { "name": "address_information_1", "index": 1 },
+                                                                        { "name": "address_information_2", "index": 2, "default": "" }
+                                                                    ]},
+                                                                    { "name": "N4", "min": 0, "max": 1, "elements": [
+                                                                        { "name": "city_name", "index": 1 },
+                                                                        { "name": "state_or_prov_code", "index": 2, "default": "" },
+                                                                        { "name": "postal_code", "index": 3, "default": "" },
+                                                                        { "name": "country_code", "index": 4, "default": "" },
+                                                                        { "name": "country_sub_code", "index": 7, "default": "" }
+                                                                    ]},
+                                                                    { "name": "PRV", "min": 0, "max": 1, "elements": [
+                                                                        { "name": "provider_code", "index": 1 },
+                                                                        { "name": "reference_ident_qual", "index": 2 },
+                                                                        { "name": "reference_ident", "index": 3 }
+                                                                    ]},
+                                                                    { "name": "REF", "min": 0, "max": 20, "elements": [
+                                                                        { "name": "reference_ident_qual", "index": 1 },
+                                                                        { "name": "reference_ident", "index": 2 }
+                                                                    ]},
+                                                                    { "name": "PER", "min": 0, "max": 1, "elements": [
+                                                                        { "name": "contact_funct_code", "index": 1 },
+                                                                        { "name": "name", "index": 2, "default": "" },
+                                                                        { "name": "comm_number_qual_1", "index": 3 },
+                                                                        { "name": "comm_number_1", "index": 4 },
+                                                                        { "name": "comm_number_qual_2", "index": 5, "default": "" },
+                                                                        { "name": "comm_number_2", "index": 6, "default": "" },
+                                                                        { "name": "comm_number_qual_3", "index": 7, "default": "" },
+                                                                        { "name": "comm_number_3", "index": 8, "default": "" }
+                                                                    ]}
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "LineAdjudicationInformation-2430", "type": "segment_group", "min": 0, "max": 15,
+                                                                "child_segments": [
+                                                                    { "name": "SVD", "min": 0, "max": 1, "elements": [
+                                                                        { "name": "id_code", "index": 1 },
+                                                                        { "name": "monetary_amount", "index": 2 },
+                                                                        { "name": "comp_med_proced_id", "index": 3 },
+                                                                        { "name": "quantity", "index": 5 },
+                                                                        { "name": "assigned_number", "index": 6, "default": "" }
+                                                                    ]},
+                                                                    { "name": "CAS", "min": 0, "max": 5, "elements": [
+                                                                        { "name": "claim_adj_group_code", "index": 1 },
+                                                                        { "name": "claim_adj_reason_code_1", "index": 2 },
+                                                                        { "name": "monetary_amount_1", "index": 3 },
+                                                                        { "name": "quantity_1", "index": 4, "default": "" },
+                                                                        { "name": "claim_adj_reason_code_2", "index": 5, "default": "" },
+                                                                        { "name": "monetary_amount_2", "index": 6, "default": "" },
+                                                                        { "name": "quantity_2", "index": 7, "default": "" },
+                                                                        { "name": "claim_adj_reason_code_3", "index": 8, "default": "" },
+                                                                        { "name": "monetary_amount_3", "index": 9, "default": "" },
+                                                                        { "name": "quantity_3", "index": 10, "default": "" },
+                                                                        { "name": "claim_adj_reason_code_4", "index": 11, "default": "" },
+                                                                        { "name": "monetary_amount_4", "index": 12, "default": "" },
+                                                                        { "name": "quantity_4", "index": 13, "default": "" },
+                                                                        { "name": "claim_adj_reason_code_5", "index": 14, "default": "" },
+                                                                        { "name": "monetary_amount_5", "index": 15, "default": "" },
+                                                                        { "name": "quantity_5", "index": 16, "default": "" },
+                                                                        { "name": "claim_adj_reason_code_6", "index": 17, "default": "" },
+                                                                        { "name": "monetary_amount_6", "index": 18, "default": "" },
+                                                                        { "name": "quantity_6", "index": 19, "default": "" }
+                                                                    ]},
+                                                                    { "name": "DTP", "elements": [
+                                                                        { "name": "date_time_qualifier", "index": 1 },
+                                                                        { "name": "date_time_format_qual", "index": 2 },
+                                                                        { "name": "date_time_period", "index": 3 }
+                                                                    ]},
+                                                                    { "name": "AMT", "min": 0, "max": 1, "elements": [
+                                                                        { "name": "amount_qual_code", "index": 1 },
+                                                                        { "name": "monetary_amount", "index": 2 }
+                                                                    ]}
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "FormIdentificationCode-2440", "type": "segment_group", "min": 0, "max": -1,
+                                                                "child_segments": [
+                                                                    { "name": "LQ", "min": 0, "max": 1, "elements": [
+                                                                        { "name": "code_list_qual_code", "index": 1 },
+                                                                        { "name": "industry_code", "index": 2 }
+                                                                    ]},
+                                                                    { "name": "FRM", "min": 1, "max": 99, "elements": [
+                                                                        { "name": "assigned_id", "index": 1 },
+                                                                        { "name": "yes_no_cond_resp_code", "index": 2, "default": "" },
+                                                                        { "name": "reference_ident", "index": 3, "default": "" },
+                                                                        { "name": "date", "index": 4, "default": "" },
+                                                                        { "name": "allow_chrg_percent", "index": 5, "default": "" }
+                                                                    ]}
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    { "name": "SE", "elements": [
+                                        { "name": "number_of_inc_segs", "index": 1 },
+                                        { "name": "ts_control_number", "index": 2 }
+                                    ]}
+                                ]
+                            }
+                        ]
+                    },
+                    { "name": "GE" }
+                ]
+            },
+            { "name": "IEA" }
+        ]
+    },
+    "transform_declarations": {
+        "FINAL_OUTPUT": { "object": {
+            "ts_id_code": {"xpath": "ST/ts_id_code"},
+            "ts_control_number": {"xpath": "ST/ts_control_number"},
+            "date": {"xpath": "BHT/date"},
+            "time": {"xpath": "BHT/time"},
+            "submitter": { "array": [
+                { "xpath": "SubmitterName-1000A", "object": {
+                    "entity_id_code": {"xpath": "NM1/entity_id_code"},
+                    "entity_type_qualifier": {"xpath": "NM1/entity_type_qualifier"},
+                    "name_last_or_organization": {"xpath": "NM1/name_last_or_organization"},
+                    "contact_funct_code": {"xpath": "PER/contact_funct_code"},
+                    "comm_number_qual_1": {"xpath": "PER/comm_number_qual_1"},
+                    "comm_number_1": {"xpath": "PER/comm_number_1"}
+                }}
+            ]},
+            "receiver": { "array": [
+                { "xpath": "ReceiverName-1000B", "object": {
+                    "entity_id_code": {"xpath": "NM1/entity_id_code"},
+                    "entity_type_qualifier": {"xpath": "NM1/entity_type_qualifier"},
+                    "name_last_or_organization": {"xpath": "NM1/name_last_or_organization"}
+                }}
+            ]},
+            "billing_provider": { "array": [
+                { "xpath": "BillingProviderHierarchicalLevel-2000A", "object": {
+                    "hierarch_id_number": {"xpath": "HL/hierarch_id_number"},
+                    "provider_code": {"xpath": "PRV/provider_code"},
+                    "entity_id_code": {"xpath": "CUR/entity_id_code"},
+                    "provider_name": { "array": [
+                        { "xpath": "BillingProviderName-2010AA", "object": {
+                            "entity_id_code": {"xpath": "NM1/entity_id_code"},
+                            "entity_type_qualifier": {"xpath": "NM1/entity_type_qualifier"},
+                            "name_last_or_organization": {"xpath": "NM1/name_last_or_organization"},
+                            "address_information_1": {"xpath": "N3/address_information_1"},
+                            "city_name": {"xpath": "N4/city_name"}
+                        }}
+                    ]},
+                    "pay_to_plan_name": { "array": [
+                        { "xpath": "PayToRelatedNames-2010AX[NM1/entity_id_code='PE']", "object": {
+                            "entity_id_code": {"xpath": "NM1/entity_id_code"},
+                            "entity_type_qualifier": {"xpath": "NM1/entity_type_qualifier"},
+                            "name_last_or_organization": {"xpath": "NM1/name_last_or_organization"},
+                            "address_information_1": {"xpath": "N3/address_information_1"},
+                            "city_name": {"xpath": "N4/city_name"}
+                        }}
+                    ]},
+                    "pay_to_address_name": { "array": [
+                        { "xpath": "PayToRelatedNames-2010AX[NM1/entity_id_code='87']", "object": {
+                            "entity_id_code": {"xpath": "NM1/entity_id_code"},
+                            "entity_type_qualifier": {"xpath": "NM1/entity_type_qualifier"},
+                            "name_last_or_organization": {"xpath": "NM1/name_last_or_organization"},
+                            "address_information_1": {"xpath": "N3/address_information_1"},
+                            "city_name": {"xpath": "N4/city_name"}
+                        }}
+                    ]}
+                }}
+            ]},
+            "subscriber_provider": { "array": [
+                { "xpath": "SubscriberHierarchicalLevel-2000B", "object": {
+                    "hierarch_id_number": {"xpath": "HL/hierarch_id_number"},
+                    "payer_resp_seq_no_code": {"xpath": "SBR/payer_resp_seq_no_code"},
+                    "subscriber_name": { "array": [
+                        { "xpath": "SubscriberName-2010BA", "object": {
+                            "entity_id_code": {"xpath": "NM1/entity_id_code"},
+                            "entity_type_qualifier": {"xpath": "NM1/entity_type_qualifier"},
+                            "name_last_or_organization": {"xpath": "NM1/name_last_or_organization"},
+                            "address_information_1": {"xpath": "N3/address_information_1"},
+                            "city_name": {"xpath": "N4/city_name"},
+                            "date_time_format_qual":  {"xpath": "DMG/date_time_format_qual"},
+                            "date_time_period":  {"xpath": "DMG/date_time_period"},
+                            "gender_code":  {"xpath": "DMG/gender_code"}
+                        }}
+                    ]},
+                    "payer_name": { "array": [
+                        { "xpath": "PayerName-2010BB", "object": {
+                            "entity_id_code": {"xpath": "NM1/entity_id_code"},
+                            "entity_type_qualifier": {"xpath": "NM1/entity_type_qualifier"},
+                            "name_last_or_organization": {"xpath": "NM1/name_last_or_organization"},
+                            "address_information_1": {"xpath": "N3/address_information_1"},
+                            "city_name": {"xpath": "N4/city_name"}
+                        }}
+                    ]}
+                }}
+            ]},
+            "patient_details": { "array": [
+                { "xpath": "PatientHierarchicalLevel-2000C", "object": {
+                    "hierarch_id_number": {"xpath": "HL/hierarch_id_number"},
+                    "indivdual_relat_code": {"xpath": "PAT/indivdual_relat_code"},
+                    "patient_name": { "array": [
+                        { "xpath": "PatientName-2010CA", "object": {
+                            "entity_id_code": {"xpath": "NM1/entity_id_code"},
+                            "entity_type_qualifier": {"xpath": "NM1/entity_type_qualifier"},
+                            "name_last_or_organization": {"xpath": "NM1/name_last_or_organization"},
+                            "name_first": {"xpath": "NM1/name_first"},
+                            "address_information_1": {"xpath": "N3/address_information_1"},
+                            "city_name": {"xpath": "N4/city_name"},
+                            "date_time_format_qual":  {"xpath": "DMG/date_time_format_qual"},
+                            "date_time_period":  {"xpath": "DMG/date_time_period"},
+                            "gender_code":  {"xpath": "DMG/gender_code"}
+                        }}
+                    ]},
+                    "claims": { "array": [
+                        { "xpath": "ClaimInformation-2300", "object": {
+                            "claim_submt_identifier": {"xpath": "CLM/claim_submt_identifier"},
+                            "monetary_amount": {"xpath": "CLM/monetary_amount"},
+                            "date_time_qualifier": {"xpath": "DTP[position()=1]/date_time_qualifier"},
+                            "date_time_format_qual": {"xpath": "DTP[position()=1]/date_time_format_qual"},
+                            "date_time_period": {"xpath": "DTP[position()=1]/date_time_period"},
+                            "health_care_code_info_1": {"xpath": "HI/health_care_code_info_1"},
+                            "referring_provider_name": { "array": [
+                                { "xpath": "ProviderOrLocationRelatedNames-2310X[NM1/entity_id_code='DN']", "object": {
+                                    "entity_id_code": {"xpath": "NM1/entity_id_code"},
+                                    "entity_type_qualifier": {"xpath": "NM1/entity_type_qualifier"},
+                                    "name_last_or_organization": {"xpath": "NM1/name_last_or_organization"},
+                                    "name_first": {"xpath": "NM1/name_first"}
+                                }}
+                            ]},
+                            "rendering_provider_name": { "array": [
+                                { "xpath": "ProviderOrLocationRelatedNames-2310X[NM1/entity_id_code='82']", "object": {
+                                    "entity_id_code": {"xpath": "NM1/entity_id_code"},
+                                    "entity_type_qualifier": {"xpath": "NM1/entity_type_qualifier"},
+                                    "name_last_or_organization": {"xpath": "NM1/name_last_or_organization"},
+                                    "name_first": {"xpath": "NM1/name_first"}
+                                }}
+                            ]},
+                            "supervising_provider_name": { "array": [
+                                { "xpath": "ProviderOrLocationRelatedNames-2310X[NM1/entity_id_code='DQ']", "object": {
+                                    "entity_id_code": {"xpath": "NM1/entity_id_code"},
+                                    "entity_type_qualifier": {"xpath": "NM1/entity_type_qualifier"},
+                                    "name_last_or_organization": {"xpath": "NM1/name_last_or_organization"},
+                                    "name_first": {"xpath": "NM1/name_first"}
+                                }}
+                            ]},
+                            "service_lines": { "array": [
+                                { "xpath": "ServiceLineNumber-2400", "object": {
+                                    "assigned_number": {"xpath": "LX/assigned_number"},
+                                    "comp_med_proced_id": {"xpath": "SV1/comp_med_proced_id"},
+                                    "monetary_amount": {"xpath": "SV1/monetary_amount"},
+                                    "date_time_qualifier": {"xpath": "DTP[position()=1]/date_time_qualifier"},
+                                    "date_time_format_qual": {"xpath": "DTP[position()=1]/date_time_format_qual"},
+                                    "date_time_period": {"xpath": "DTP[position()=1]/date_time_period"},
+                                    "drug_identification": { "array": [
+                                        { "xpath": "DrugIdentification-2410", "object": {
+                                            "prod_serv_id_qual": {"xpath": "LIN/prod_serv_id_qual"},
+                                            "product_service_id": {"xpath": "LIN/product_service_id"},
+                                            "quantity": {"xpath": "CTP/quantity"},
+                                            "composite_unit_of_meas": {"xpath": "CTP/composite_unit_of_meas"}
+                                        }}
+                                    ]},
+                                    "referring_provider_name": { "array": [
+                                        { "xpath": "ProviderOrLocationRelatedNames-2420X[NM1/entity_id_code='DN']", "object": {
+                                            "entity_id_code": {"xpath": "NM1/entity_id_code"},
+                                            "entity_type_qualifier": {"xpath": "NM1/entity_type_qualifier"},
+                                            "name_last_or_organization": {"xpath": "NM1/name_last_or_organization"},
+                                            "name_first": {"xpath": "NM1/name_first"}
+                                        }}
+                                    ]},
+                                    "rendering_provider_name": { "array": [
+                                        { "xpath": "ProviderOrLocationRelatedNames-2420X[NM1/entity_id_code='82']", "object": {
+                                            "entity_id_code": {"xpath": "NM1/entity_id_code"},
+                                            "entity_type_qualifier": {"xpath": "NM1/entity_type_qualifier"},
+                                            "name_last_or_organization": {"xpath": "NM1/name_last_or_organization"},
+                                            "name_first": {"xpath": "NM1/name_first"}
+                                        }}
+                                    ]},
+                                    "supervising_provider_name": { "array": [
+                                        { "xpath": "ProviderOrLocationRelatedNames-2420X[NM1/entity_id_code='DQ']", "object": {
+                                            "entity_id_code": {"xpath": "NM1/entity_id_code"},
+                                            "entity_type_qualifier": {"xpath": "NM1/entity_type_qualifier"},
+                                            "name_last_or_organization": {"xpath": "NM1/name_last_or_organization"},
+                                            "name_first": {"xpath": "NM1/name_first"}
+                                        }}
+                                    ]}
+                                }}
+                            ]}
+                        }}
+                    ]}
+                }}
+            ]}
+        }}
+    }
+}

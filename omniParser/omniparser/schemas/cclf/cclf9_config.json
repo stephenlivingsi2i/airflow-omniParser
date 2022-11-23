@@ -1,0 +1,32 @@
+{
+  "parser_settings": {
+    "version": "omni.2.1",
+    "file_format_type": "fixedlength2"
+  },
+  "file_declaration": {
+    "envelopes": [
+      {
+        "columns": [
+          { "name": "HICN_MBI_XREF_IND…", "start_pos": 1, "length": 1 },
+          { "name": "CRNT_NUM", "start_pos": 2, "length": 11 },
+          { "name": "PRVS_NUM", "start_pos": 13, "length": 11 },
+          { "name": "PRVS_ID_EFCTV_DT", "start_pos": 24, "length": 10 },
+          { "name": "PRVS_ID_OBSLT_DT", "start_pos": 34, "length": 10 },
+          { "name": "BENE_RRB_NUM", "start_pos": 44, "length": 12 }
+        ]
+      }
+    ]
+  },
+  "transform_declarations": {
+    "FINAL_OUTPUT": {
+      "object": {
+        "hicn_mbi_xref_ind…": { "xpath": "HICN_MBI_XREF_IND…" },
+        "crnt_num": { "xpath": "CRNT_NUM" },
+        "prvs_num": { "xpath": "PRVS_NUM" },
+        "prvs_id_efctv_dt": { "xpath": "PRVS_ID_EFCTV_DT" },
+        "prvs_id_obslt_dt": { "xpath": "PRVS_ID_OBSLT_DT" },
+        "bene_rrb_num": { "xpath": "BENE_RRB_NUM" }
+      }
+    }
+  }
+}

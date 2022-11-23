@@ -1,0 +1,171 @@
+{
+    "parser_settings": {
+        "version": "omni.2.1",
+        "file_format_type": "fixedlength2"
+    },
+    "file_declaration": {
+        "envelopes" : [
+            {
+                "columns": [
+                    { "name": "BENE_MBI_ID", "start_pos": 1, "length": 11 },
+                    { "name": "BENE_HIC_NUM", "start_pos": 12, "length": 11 },
+                    { "name": "BENE_FIPS_STATE_CD", "start_pos": 23, "length": 2 },
+                    { "name": "BENE_FIPS_CNTY_CD", "start_pos": 25, "length": 3 },
+                    { "name": "BENE_ZIP_CD", "start_pos": 28, "length": 5 },
+                    { "name": "BENE_DOB", "start_pos": 33, "length": 10 },
+                    { "name": "BENE_SEX_CD", "start_pos": 43, "length": 1 },
+                    { "name": "BENE_RACE_CD", "start_pos": 44, "length": 1 },
+                    { "name": "BENE_AGE", "start_pos": 45, "length": 3 },
+                    { "name": "BENE_MDCR_STUS_CD", "start_pos": 48, "length": 2 },
+                    { "name": "BENE_DUAL_STUS_CD", "start_pos": 50, "length": 2 },
+                    { "name": "BENE_DEATH_DT", "start_pos": 52, "length": 10 },
+                    { "name": "BENE_RNG_BGN_DT", "start_pos": 62, "length": 10 },
+                    { "name": "BENE_RNG_END_DT", "start_pos": 72, "length": 10 },
+                    { "name": "BENE_1ST_NAME", "start_pos": 82, "length": 30 },
+                    { "name": "BENE_MIDL_NAME", "start_pos": 112, "length": 15 },
+                    { "name": "BENE_LAST_NAME", "start_pos": 127, "length": 40 },
+                    { "name": "BENE_ORGNL_ENTLMT_RSN_CD", "start_pos": 167, "length": 1 },
+                    { "name": "BENE_ENTLMT_BUYIN_IND", "start_pos": 168, "length": 1 },
+                    { "name": "BENE_PART_A_ENRLMT_BGN_DT", "start_pos": 169, "length": 10 },
+                    { "name": "BENE_PART_B_ENRLMT_BGN_DT", "start_pos": 179, "length": 10 },
+                    { "name": "BENE_LINE_1_ADR", "start_pos": 189, "length": 45 },
+                    { "name": "BENE_LINE_2_ADR", "start_pos": 234, "length": 45 },
+                    { "name": "BENE_LINE_3_ADR", "start_pos": 279, "length": 40 },
+                    { "name": "BENE_LINE_4_ADR", "start_pos": 319, "length": 40 },
+                    { "name": "BENE_LINE_5_ADR", "start_pos": 359, "length": 40 },
+                    { "name": "BENE_LINE_6_ADR", "start_pos": 399, "length": 40 },
+                    { "name": "GEO_ZIP_PLC_NAME", "start_pos": 439, "length": 100 },
+                    { "name": "GEO_USPS_STATE_CD", "start_pos": 539, "length": 2 },
+                    { "name": "GEO_ZIP5_CD", "start_pos": 541, "length": 5 },
+                    { "name": "GEO_ZIP4_CD", "start_pos": 546, "length": 4 }
+                ]
+            }
+        ]
+    },
+    "transform_declarations": {
+        "FINAL_OUTPUT": { "object": {
+            "resourceType": {"const": "Patient"},
+            "identifier": {
+                "array": [
+                    {
+                        "object": {
+                            "type": {
+                                "object": {
+                                    "coding": {
+                                        "array": [
+                                            {
+                                                "object": {
+                                                    "system": {"const": "http://terminology.hl7.org/CodeSystem/v2-0203"},
+                                                    "code": {"const": "MC"}
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "system": {"const": "http://hl7.org/fhir/sid/us-mbi"},
+                            "value": {"xpath": "BENE_MBI_ID"}
+                        }
+                    }
+                ]
+            },
+            "active": {"const": "true", "type": "boolean"},
+            "name": {
+                "array": [
+                    {
+                        "object": {
+                            "family": {"xpath": "BENE_LAST_NAME"},
+                            "given": {
+                                "array": [
+                                    {
+                                        "xpath": "BENE_1ST_NAME"
+                                    },
+                                    {
+                                        "xpath": "BENE_MIDL_NAME"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "extension": {
+                "array": [
+                    {
+                        "object": {
+                            "extension": {
+                                "array": [
+                                    {
+                                        "object": {
+                                            "url": {"const": "ombCategory"},
+                                            "valueCoding": {
+                                                "object": {
+                                                    "system": {"const": "urn:oid:2.16.840.1.113883.6.238"},
+                                                    "code": {"xpath": "BENE_RACE_CD", "template": "race_mapping"}
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "url": {"const": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"}
+                        }
+                    }
+                ]
+            },
+            "gender": {"xpath": "BENE_SEX_CD", "template": "gender_mapping"},
+            "birthDate": {"xpath": "BENE_DOB"},
+            "address": {
+                "array": [
+                    {
+                        "object": {
+                            "line": {
+                                "array": [
+                                    {
+                                        "xpath": "BENE_LINE_1_ADR"
+                                    },
+                                    {
+                                        "xpath": "BENE_LINE_2_ADR"
+                                    },
+                                    {
+                                        "xpath": "BENE_LINE_3_ADR"
+                                    },
+                                    {
+                                        "xpath": "BENE_LINE_4_ADR"
+                                    },
+                                    {
+                                        "xpath": "BENE_LINE_5_ADR"
+                                    },
+                                    {
+                                        "xpath": "BENE_LINE_6_ADR"
+                                    }
+                                ]
+                            },
+                            "city": {"xpath": "GEO_ZIP_PLC_NAME"},
+                            "state": {"xpath": "GEO_USPS_STATE_CD"},
+                            "postalCode": {"xpath": "GEO_ZIP5_CD", "type": "int"}                           
+                        }
+                    }
+                ]
+            }
+        }},
+        "gender_mapping": {
+            "custom_func": {
+                "name": "javascript",
+                "args": [
+                    {"const": "code=='1'?'male':code=='2'?'female':'unknown'"},
+                    {"const": "code"}, {"xpath": "."}
+                ]
+            }
+        },
+        "race_mapping": {
+            "custom_func": {
+                "name": "javascript",
+                "args": [
+                    {"const": "code=='1'?'2106-3':code=='2'?'2054-5':code=='3'?'2131-1':code=='4'?'2028-9':'2131-1'"},
+                    {"const": "code"}, {"xpath": "."}
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,600 @@
+[2022-11-18 06:50:44,663] {processor.py:163} INFO - Started process (PID=47) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:50:44,671] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 06:50:44,673] {logging_mixin.py:109} INFO - [2022-11-18 06:50:44,672] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:50:44,820] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:50:44,848] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.195 seconds
+[2022-11-18 06:51:39,688] {processor.py:163} INFO - Started process (PID=83) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:51:39,700] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 06:51:39,706] {logging_mixin.py:109} INFO - [2022-11-18 06:51:39,706] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:51:39,931] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:51:39,961] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.302 seconds
+[2022-11-18 06:53:38,774] {processor.py:163} INFO - Started process (PID=231) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:53:38,776] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 06:53:38,780] {logging_mixin.py:109} INFO - [2022-11-18 06:53:38,779] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:53:38,820] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:53:38,827] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.062 seconds
+[2022-11-18 06:54:09,203] {processor.py:163} INFO - Started process (PID=278) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:54:09,210] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 06:54:09,213] {logging_mixin.py:109} INFO - [2022-11-18 06:54:09,212] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:54:09,244] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:54:09,248] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.057 seconds
+[2022-11-18 06:54:39,343] {processor.py:163} INFO - Started process (PID=330) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:54:39,345] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 06:54:39,347] {logging_mixin.py:109} INFO - [2022-11-18 06:54:39,347] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:54:39,392] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:54:39,396] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.059 seconds
+[2022-11-18 06:55:09,857] {processor.py:163} INFO - Started process (PID=383) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:55:09,861] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 06:55:09,867] {logging_mixin.py:109} INFO - [2022-11-18 06:55:09,866] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:55:09,925] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:55:09,944] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.103 seconds
+[2022-11-18 06:55:40,354] {processor.py:163} INFO - Started process (PID=433) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:55:40,356] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 06:55:40,357] {logging_mixin.py:109} INFO - [2022-11-18 06:55:40,357] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:55:40,378] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:55:40,381] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.036 seconds
+[2022-11-18 06:56:10,676] {processor.py:163} INFO - Started process (PID=485) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:56:10,687] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 06:56:10,688] {logging_mixin.py:109} INFO - [2022-11-18 06:56:10,687] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:56:10,718] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:56:10,721] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.052 seconds
+[2022-11-18 06:56:41,378] {processor.py:163} INFO - Started process (PID=537) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:56:41,380] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 06:56:41,382] {logging_mixin.py:109} INFO - [2022-11-18 06:56:41,382] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:56:41,404] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:56:41,408] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.041 seconds
+[2022-11-18 06:57:12,026] {processor.py:163} INFO - Started process (PID=588) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:57:12,027] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 06:57:12,028] {logging_mixin.py:109} INFO - [2022-11-18 06:57:12,028] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:57:12,051] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:57:12,054] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.034 seconds
+[2022-11-18 06:57:42,229] {processor.py:163} INFO - Started process (PID=640) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:57:42,231] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 06:57:42,232] {logging_mixin.py:109} INFO - [2022-11-18 06:57:42,232] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:57:42,256] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:57:42,259] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.036 seconds
+[2022-11-18 06:58:12,288] {processor.py:163} INFO - Started process (PID=694) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:58:12,289] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 06:58:12,290] {logging_mixin.py:109} INFO - [2022-11-18 06:58:12,290] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:58:12,307] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:58:12,310] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.026 seconds
+[2022-11-18 06:58:42,649] {processor.py:163} INFO - Started process (PID=746) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:58:42,667] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 06:58:42,684] {logging_mixin.py:109} INFO - [2022-11-18 06:58:42,684] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:58:42,816] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:58:42,832] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.214 seconds
+[2022-11-18 06:59:13,303] {processor.py:163} INFO - Started process (PID=798) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:59:13,309] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 06:59:13,310] {logging_mixin.py:109} INFO - [2022-11-18 06:59:13,310] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:59:13,335] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:59:13,338] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.047 seconds
+[2022-11-18 06:59:43,629] {processor.py:163} INFO - Started process (PID=850) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:59:43,641] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 06:59:43,644] {logging_mixin.py:109} INFO - [2022-11-18 06:59:43,643] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:59:43,704] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 06:59:43,714] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.109 seconds
+[2022-11-18 07:00:13,832] {processor.py:163} INFO - Started process (PID=902) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:00:13,841] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:00:13,843] {logging_mixin.py:109} INFO - [2022-11-18 07:00:13,843] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:00:13,881] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:00:13,885] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.063 seconds
+[2022-11-18 07:00:43,937] {processor.py:163} INFO - Started process (PID=954) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:00:43,939] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:00:43,940] {logging_mixin.py:109} INFO - [2022-11-18 07:00:43,940] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:00:43,965] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:00:43,970] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.037 seconds
+[2022-11-18 07:01:14,723] {processor.py:163} INFO - Started process (PID=1006) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:01:14,725] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:01:14,729] {logging_mixin.py:109} INFO - [2022-11-18 07:01:14,729] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:01:14,774] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:01:14,778] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.069 seconds
+[2022-11-18 07:01:45,443] {processor.py:163} INFO - Started process (PID=1058) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:01:45,451] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:01:45,458] {logging_mixin.py:109} INFO - [2022-11-18 07:01:45,458] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:01:45,507] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:01:45,514] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.080 seconds
+[2022-11-18 07:02:16,215] {processor.py:163} INFO - Started process (PID=1110) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:02:16,224] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:02:16,228] {logging_mixin.py:109} INFO - [2022-11-18 07:02:16,228] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:02:16,281] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:02:16,285] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.086 seconds
+[2022-11-18 07:02:46,389] {processor.py:163} INFO - Started process (PID=1161) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:02:46,391] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:02:46,401] {logging_mixin.py:109} INFO - [2022-11-18 07:02:46,400] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:02:46,455] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:02:46,466] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.091 seconds
+[2022-11-18 07:03:17,469] {processor.py:163} INFO - Started process (PID=1203) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:03:17,472] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:03:17,473] {logging_mixin.py:109} INFO - [2022-11-18 07:03:17,473] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:03:17,495] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:03:17,498] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.033 seconds
+[2022-11-18 07:03:47,733] {processor.py:163} INFO - Started process (PID=1255) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:03:47,734] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:03:47,735] {logging_mixin.py:109} INFO - [2022-11-18 07:03:47,735] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:03:47,759] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:03:47,763] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.034 seconds
+[2022-11-18 07:04:18,035] {processor.py:163} INFO - Started process (PID=1307) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:04:18,040] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:04:18,044] {logging_mixin.py:109} INFO - [2022-11-18 07:04:18,044] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:04:18,078] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:04:18,085] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.055 seconds
+[2022-11-18 07:04:48,675] {processor.py:163} INFO - Started process (PID=1369) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:04:48,677] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:04:48,678] {logging_mixin.py:109} INFO - [2022-11-18 07:04:48,678] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:04:48,703] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:04:48,707] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.039 seconds
+[2022-11-18 07:05:19,165] {processor.py:163} INFO - Started process (PID=1424) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:05:19,170] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:05:19,176] {logging_mixin.py:109} INFO - [2022-11-18 07:05:19,175] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:05:19,266] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:05:19,275] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.143 seconds
+[2022-11-18 07:05:49,524] {processor.py:163} INFO - Started process (PID=1476) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:05:49,525] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:05:49,527] {logging_mixin.py:109} INFO - [2022-11-18 07:05:49,526] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:05:49,548] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:05:49,551] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.033 seconds
+[2022-11-18 07:06:20,389] {processor.py:163} INFO - Started process (PID=1520) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:06:20,398] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:06:20,399] {logging_mixin.py:109} INFO - [2022-11-18 07:06:20,399] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:06:20,492] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:06:20,505] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.130 seconds
+[2022-11-18 07:06:51,304] {processor.py:163} INFO - Started process (PID=1572) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:06:51,309] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:06:51,311] {logging_mixin.py:109} INFO - [2022-11-18 07:06:51,311] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:06:51,358] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:06:51,366] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.072 seconds
+[2022-11-18 07:07:25,209] {processor.py:163} INFO - Started process (PID=1620) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:07:25,212] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:07:25,217] {logging_mixin.py:109} INFO - [2022-11-18 07:07:25,216] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:07:25,257] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:07:25,262] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.060 seconds
+[2022-11-18 07:07:55,445] {processor.py:163} INFO - Started process (PID=1670) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:07:55,447] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:07:55,449] {logging_mixin.py:109} INFO - [2022-11-18 07:07:55,448] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:07:55,488] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:07:55,493] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.053 seconds
+[2022-11-18 07:08:25,766] {processor.py:163} INFO - Started process (PID=1717) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:08:25,772] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:08:25,783] {logging_mixin.py:109} INFO - [2022-11-18 07:08:25,782] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:08:26,019] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:08:26,049] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.303 seconds
+[2022-11-18 07:08:56,308] {processor.py:163} INFO - Started process (PID=1768) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:08:56,313] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:08:56,316] {logging_mixin.py:109} INFO - [2022-11-18 07:08:56,316] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:08:56,401] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:08:56,417] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.127 seconds
+[2022-11-18 07:09:31,420] {processor.py:163} INFO - Started process (PID=1812) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:09:31,508] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:09:31,516] {logging_mixin.py:109} INFO - [2022-11-18 07:09:31,515] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:09:32,089] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:09:32,560] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 1.250 seconds
+[2022-11-18 07:10:37,206] {processor.py:163} INFO - Started process (PID=1865) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:10:37,238] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:10:37,242] {logging_mixin.py:109} INFO - [2022-11-18 07:10:37,242] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:10:37,572] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:10:37,615] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.494 seconds
+[2022-11-18 07:11:14,999] {processor.py:163} INFO - Started process (PID=1912) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:11:15,008] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:11:15,017] {logging_mixin.py:109} INFO - [2022-11-18 07:11:15,017] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:11:15,075] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:11:15,095] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.115 seconds
+[2022-11-18 07:11:45,402] {processor.py:163} INFO - Started process (PID=1952) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:11:45,411] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:11:45,416] {logging_mixin.py:109} INFO - [2022-11-18 07:11:45,415] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:11:45,466] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:11:45,473] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.080 seconds
+[2022-11-18 07:12:15,829] {processor.py:163} INFO - Started process (PID=2004) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:12:15,831] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:12:15,832] {logging_mixin.py:109} INFO - [2022-11-18 07:12:15,832] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:12:15,858] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:12:15,863] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.053 seconds
+[2022-11-18 07:12:46,703] {processor.py:163} INFO - Started process (PID=2054) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:12:46,710] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:12:46,721] {logging_mixin.py:109} INFO - [2022-11-18 07:12:46,721] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:12:46,804] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:12:46,823] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.144 seconds
+[2022-11-18 07:13:17,286] {processor.py:163} INFO - Started process (PID=2102) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:13:17,299] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:13:17,303] {logging_mixin.py:109} INFO - [2022-11-18 07:13:17,302] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:13:17,372] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:13:17,387] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.113 seconds
+[2022-11-18 07:13:47,594] {processor.py:163} INFO - Started process (PID=2153) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:13:47,598] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:13:47,599] {logging_mixin.py:109} INFO - [2022-11-18 07:13:47,599] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:13:47,704] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:13:47,715] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.146 seconds
+[2022-11-18 07:14:17,988] {processor.py:163} INFO - Started process (PID=2196) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:14:17,993] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:14:17,997] {logging_mixin.py:109} INFO - [2022-11-18 07:14:17,996] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:14:18,047] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:14:18,062] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.085 seconds
+[2022-11-18 07:14:48,461] {processor.py:163} INFO - Started process (PID=2249) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:14:48,480] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:14:48,490] {logging_mixin.py:109} INFO - [2022-11-18 07:14:48,481] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:14:48,614] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:14:48,639] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.192 seconds
+[2022-11-18 07:15:18,937] {processor.py:163} INFO - Started process (PID=2301) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:15:18,944] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:15:18,945] {logging_mixin.py:109} INFO - [2022-11-18 07:15:18,945] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:15:18,975] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:15:18,979] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.057 seconds
+[2022-11-18 07:15:49,240] {processor.py:163} INFO - Started process (PID=2362) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:15:49,243] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:15:49,250] {logging_mixin.py:109} INFO - [2022-11-18 07:15:49,250] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:15:49,308] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:15:49,312] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.122 seconds
+[2022-11-18 07:17:21,836] {processor.py:163} INFO - Started process (PID=2429) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:17:22,267] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 07:17:22,292] {logging_mixin.py:109} INFO - [2022-11-18 07:17:22,284] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:17:23,508] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 07:17:23,667] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 2.109 seconds
+[2022-11-18 11:03:20,119] {processor.py:163} INFO - Started process (PID=48) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:03:20,137] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:03:20,146] {logging_mixin.py:109} INFO - [2022-11-18 11:03:20,145] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:03:20,281] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:03:20,308] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.216 seconds
+[2022-11-18 11:11:18,461] {processor.py:163} INFO - Started process (PID=48) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:11:18,470] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:11:18,476] {logging_mixin.py:109} INFO - [2022-11-18 11:11:18,476] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:11:18,548] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:11:18,566] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.118 seconds
+[2022-11-18 11:13:30,651] {processor.py:163} INFO - Started process (PID=197) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:13:30,653] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:13:30,655] {logging_mixin.py:109} INFO - [2022-11-18 11:13:30,655] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:13:30,689] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:13:30,695] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.052 seconds
+[2022-11-18 11:14:01,405] {processor.py:163} INFO - Started process (PID=249) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:14:01,407] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:14:01,408] {logging_mixin.py:109} INFO - [2022-11-18 11:14:01,408] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:14:01,447] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:14:01,459] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.060 seconds
+[2022-11-18 11:14:31,717] {processor.py:163} INFO - Started process (PID=302) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:14:31,719] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:14:31,720] {logging_mixin.py:109} INFO - [2022-11-18 11:14:31,720] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:14:31,743] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:14:31,747] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.035 seconds
+[2022-11-18 11:15:02,234] {processor.py:163} INFO - Started process (PID=362) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:15:02,238] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:15:02,241] {logging_mixin.py:109} INFO - [2022-11-18 11:15:02,240] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:15:02,294] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:15:02,299] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.071 seconds
+[2022-11-18 11:15:33,361] {processor.py:163} INFO - Started process (PID=417) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:15:33,366] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:15:33,367] {logging_mixin.py:109} INFO - [2022-11-18 11:15:33,367] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:15:33,406] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:15:33,414] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.060 seconds
+[2022-11-18 11:16:03,848] {processor.py:163} INFO - Started process (PID=461) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:16:03,850] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:16:03,851] {logging_mixin.py:109} INFO - [2022-11-18 11:16:03,851] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:16:03,874] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:16:03,878] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.036 seconds
+[2022-11-18 11:16:34,023] {processor.py:163} INFO - Started process (PID=513) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:16:34,025] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:16:34,027] {logging_mixin.py:109} INFO - [2022-11-18 11:16:34,026] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:16:34,052] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:16:34,056] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.038 seconds
+[2022-11-18 11:17:05,005] {processor.py:163} INFO - Started process (PID=567) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:17:05,009] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:17:05,012] {logging_mixin.py:109} INFO - [2022-11-18 11:17:05,010] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:17:05,070] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:17:05,080] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.088 seconds
+[2022-11-18 11:17:35,637] {processor.py:163} INFO - Started process (PID=619) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:17:35,648] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:17:35,658] {logging_mixin.py:109} INFO - [2022-11-18 11:17:35,657] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:17:35,735] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:17:35,741] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.120 seconds
+[2022-11-18 11:18:06,336] {processor.py:163} INFO - Started process (PID=672) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:18:06,340] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:18:06,346] {logging_mixin.py:109} INFO - [2022-11-18 11:18:06,345] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:18:06,399] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:18:06,407] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.078 seconds
+[2022-11-18 11:18:36,515] {processor.py:163} INFO - Started process (PID=724) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:18:36,518] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:18:36,519] {logging_mixin.py:109} INFO - [2022-11-18 11:18:36,518] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:18:36,544] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:18:36,549] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.039 seconds
+[2022-11-18 11:19:06,726] {processor.py:163} INFO - Started process (PID=777) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:19:06,731] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:19:06,734] {logging_mixin.py:109} INFO - [2022-11-18 11:19:06,734] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:19:06,775] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:19:06,780] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.068 seconds
+[2022-11-18 11:19:37,382] {processor.py:163} INFO - Started process (PID=830) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:19:37,392] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:19:37,393] {logging_mixin.py:109} INFO - [2022-11-18 11:19:37,393] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:19:37,440] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:19:37,449] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.082 seconds
+[2022-11-18 11:20:07,507] {processor.py:163} INFO - Started process (PID=882) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:20:07,515] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:20:07,522] {logging_mixin.py:109} INFO - [2022-11-18 11:20:07,522] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:20:07,581] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:20:07,590] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.093 seconds
+[2022-11-18 11:20:38,179] {processor.py:163} INFO - Started process (PID=934) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:20:38,188] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:20:38,190] {logging_mixin.py:109} INFO - [2022-11-18 11:20:38,190] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:20:38,251] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:20:38,266] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.092 seconds
+[2022-11-18 11:21:08,585] {processor.py:163} INFO - Started process (PID=988) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:21:08,586] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:21:08,587] {logging_mixin.py:109} INFO - [2022-11-18 11:21:08,587] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:21:08,611] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:21:08,615] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.034 seconds
+[2022-11-18 11:21:39,057] {processor.py:163} INFO - Started process (PID=1042) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:21:39,059] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:21:39,060] {logging_mixin.py:109} INFO - [2022-11-18 11:21:39,060] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:21:39,081] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:21:39,084] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.032 seconds
+[2022-11-18 11:23:11,548] {processor.py:163} INFO - Started process (PID=39) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:23:11,550] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:23:11,558] {logging_mixin.py:109} INFO - [2022-11-18 11:23:11,557] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:23:11,642] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:23:11,654] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.127 seconds
+[2022-11-18 11:23:42,187] {processor.py:163} INFO - Started process (PID=91) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:23:42,190] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:23:42,191] {logging_mixin.py:109} INFO - [2022-11-18 11:23:42,191] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:23:42,214] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:23:42,218] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.036 seconds
+[2022-11-18 11:24:13,349] {processor.py:163} INFO - Started process (PID=144) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:24:13,350] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:24:13,352] {logging_mixin.py:109} INFO - [2022-11-18 11:24:13,351] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:24:13,380] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:24:13,384] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.040 seconds
+[2022-11-18 11:24:44,136] {processor.py:163} INFO - Started process (PID=198) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:24:44,144] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:24:44,146] {logging_mixin.py:109} INFO - [2022-11-18 11:24:44,146] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:24:44,176] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:24:44,180] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.049 seconds
+[2022-11-18 11:25:14,299] {processor.py:163} INFO - Started process (PID=251) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:25:14,300] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:25:14,301] {logging_mixin.py:109} INFO - [2022-11-18 11:25:14,301] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:25:14,321] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:25:14,324] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.029 seconds
+[2022-11-18 11:25:45,116] {processor.py:163} INFO - Started process (PID=304) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:25:45,118] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:25:45,119] {logging_mixin.py:109} INFO - [2022-11-18 11:25:45,119] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:25:45,149] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:25:45,156] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.047 seconds
+[2022-11-18 11:26:15,424] {processor.py:163} INFO - Started process (PID=357) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:26:15,432] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:26:15,434] {logging_mixin.py:109} INFO - [2022-11-18 11:26:15,433] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:26:15,475] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:26:15,480] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.061 seconds
+[2022-11-18 11:26:46,107] {processor.py:163} INFO - Started process (PID=410) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:26:46,108] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:26:46,109] {logging_mixin.py:109} INFO - [2022-11-18 11:26:46,109] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:26:46,130] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:26:46,135] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.033 seconds
+[2022-11-18 11:27:16,699] {processor.py:163} INFO - Started process (PID=461) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:27:16,700] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:27:16,701] {logging_mixin.py:109} INFO - [2022-11-18 11:27:16,700] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:27:16,719] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:27:16,722] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.027 seconds
+[2022-11-18 11:27:47,117] {processor.py:163} INFO - Started process (PID=513) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:27:47,122] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:27:47,124] {logging_mixin.py:109} INFO - [2022-11-18 11:27:47,124] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:27:47,169] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:27:47,176] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.069 seconds
+[2022-11-18 11:28:17,391] {processor.py:163} INFO - Started process (PID=566) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:28:17,399] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:28:17,406] {logging_mixin.py:109} INFO - [2022-11-18 11:28:17,406] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:28:17,447] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:28:17,457] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.072 seconds
+[2022-11-18 11:28:47,697] {processor.py:163} INFO - Started process (PID=619) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:28:47,708] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:28:47,709] {logging_mixin.py:109} INFO - [2022-11-18 11:28:47,709] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:28:47,738] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:28:47,743] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.060 seconds
+[2022-11-18 11:29:18,572] {processor.py:163} INFO - Started process (PID=673) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:29:18,607] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:29:18,611] {logging_mixin.py:109} INFO - [2022-11-18 11:29:18,611] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:29:18,821] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:29:18,834] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.333 seconds
+[2022-11-18 11:29:49,486] {processor.py:163} INFO - Started process (PID=724) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:29:49,489] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:29:49,490] {logging_mixin.py:109} INFO - [2022-11-18 11:29:49,490] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:29:49,522] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:29:49,526] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.047 seconds
+[2022-11-18 11:30:20,947] {processor.py:163} INFO - Started process (PID=777) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:30:20,951] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:30:20,957] {logging_mixin.py:109} INFO - [2022-11-18 11:30:20,955] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:30:21,000] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:30:21,005] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.064 seconds
+[2022-11-18 11:30:56,687] {processor.py:163} INFO - Started process (PID=827) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:30:56,692] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:30:56,728] {logging_mixin.py:109} INFO - [2022-11-18 11:30:56,727] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:30:56,936] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:30:56,961] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.335 seconds
+[2022-11-18 11:31:27,445] {processor.py:163} INFO - Started process (PID=872) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:31:27,454] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:31:27,456] {logging_mixin.py:109} INFO - [2022-11-18 11:31:27,456] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:31:27,507] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:31:27,511] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.072 seconds
+[2022-11-18 11:31:58,571] {processor.py:163} INFO - Started process (PID=925) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:31:58,579] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:31:58,590] {logging_mixin.py:109} INFO - [2022-11-18 11:31:58,590] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:31:58,703] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:31:58,726] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.200 seconds
+[2022-11-18 11:32:29,199] {processor.py:163} INFO - Started process (PID=978) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:32:29,217] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:32:29,226] {logging_mixin.py:109} INFO - [2022-11-18 11:32:29,225] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:32:29,358] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:32:29,363] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.174 seconds
+[2022-11-18 11:33:00,096] {processor.py:163} INFO - Started process (PID=1029) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:33:00,100] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:33:00,102] {logging_mixin.py:109} INFO - [2022-11-18 11:33:00,102] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:33:00,298] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:33:00,347] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.264 seconds
+[2022-11-18 11:34:02,552] {processor.py:163} INFO - Started process (PID=1090) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:34:02,570] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 11:34:02,580] {logging_mixin.py:109} INFO - [2022-11-18 11:34:02,580] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:34:03,222] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 11:34:03,319] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.854 seconds
+[2022-11-18 12:06:55,928] {processor.py:163} INFO - Started process (PID=66) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:06:55,951] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:06:55,957] {logging_mixin.py:109} INFO - [2022-11-18 12:06:55,956] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:06:56,156] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:06:56,190] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.277 seconds
+[2022-11-18 12:07:33,557] {processor.py:163} INFO - Started process (PID=117) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:07:33,575] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:07:33,605] {logging_mixin.py:109} INFO - [2022-11-18 12:07:33,605] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:07:33,886] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:07:33,932] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.476 seconds
+[2022-11-18 12:08:04,485] {processor.py:163} INFO - Started process (PID=163) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:08:04,490] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:08:04,499] {logging_mixin.py:109} INFO - [2022-11-18 12:08:04,499] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:08:04,539] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:08:04,543] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.063 seconds
+[2022-11-18 12:08:34,935] {processor.py:163} INFO - Started process (PID=216) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:08:34,936] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:08:34,941] {logging_mixin.py:109} INFO - [2022-11-18 12:08:34,937] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:08:34,971] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:08:34,976] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.051 seconds
+[2022-11-18 12:09:05,244] {processor.py:163} INFO - Started process (PID=269) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:09:05,255] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:09:05,269] {logging_mixin.py:109} INFO - [2022-11-18 12:09:05,269] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:09:05,330] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:09:05,344] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.106 seconds
+[2022-11-18 12:09:35,573] {processor.py:163} INFO - Started process (PID=320) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:09:35,595] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:09:35,597] {logging_mixin.py:109} INFO - [2022-11-18 12:09:35,597] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:09:35,669] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:09:35,675] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.114 seconds
+[2022-11-18 12:10:06,290] {processor.py:163} INFO - Started process (PID=372) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:10:06,296] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:10:06,330] {logging_mixin.py:109} INFO - [2022-11-18 12:10:06,320] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:10:06,423] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:10:06,432] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.147 seconds
+[2022-11-18 12:10:36,687] {processor.py:163} INFO - Started process (PID=423) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:10:36,697] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:10:36,707] {logging_mixin.py:109} INFO - [2022-11-18 12:10:36,707] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:10:36,854] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:10:36,876] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.228 seconds
+[2022-11-18 12:11:07,083] {processor.py:163} INFO - Started process (PID=470) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:11:07,086] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:11:07,130] {logging_mixin.py:109} INFO - [2022-11-18 12:11:07,129] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:11:07,299] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:11:07,349] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.281 seconds
+[2022-11-18 12:11:38,221] {processor.py:163} INFO - Started process (PID=524) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:11:38,223] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:11:38,224] {logging_mixin.py:109} INFO - [2022-11-18 12:11:38,224] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:11:38,244] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:11:38,247] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.031 seconds
+[2022-11-18 12:12:08,493] {processor.py:163} INFO - Started process (PID=577) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:12:08,499] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:12:08,502] {logging_mixin.py:109} INFO - [2022-11-18 12:12:08,502] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:12:08,567] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:12:08,576] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.132 seconds
+[2022-11-18 12:12:38,722] {processor.py:163} INFO - Started process (PID=638) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:12:38,726] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:12:38,741] {logging_mixin.py:109} INFO - [2022-11-18 12:12:38,741] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:12:38,842] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:12:38,853] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.153 seconds
+[2022-11-18 12:13:09,333] {processor.py:163} INFO - Started process (PID=692) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:13:09,338] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:13:09,339] {logging_mixin.py:109} INFO - [2022-11-18 12:13:09,339] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:13:09,363] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:13:09,378] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.049 seconds
+[2022-11-18 12:13:39,700] {processor.py:163} INFO - Started process (PID=745) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:13:39,704] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:13:39,705] {logging_mixin.py:109} INFO - [2022-11-18 12:13:39,705] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:13:39,731] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:13:39,739] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.043 seconds
+[2022-11-18 12:14:10,664] {processor.py:163} INFO - Started process (PID=798) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:14:10,666] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:14:10,669] {logging_mixin.py:109} INFO - [2022-11-18 12:14:10,669] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:14:10,709] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:14:10,712] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.052 seconds
+[2022-11-18 12:14:41,446] {processor.py:163} INFO - Started process (PID=860) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:14:41,449] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:14:41,456] {logging_mixin.py:109} INFO - [2022-11-18 12:14:41,456] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:14:41,523] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:14:41,545] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.108 seconds
+[2022-11-18 12:15:11,878] {processor.py:163} INFO - Started process (PID=914) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:15:11,881] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:15:11,882] {logging_mixin.py:109} INFO - [2022-11-18 12:15:11,881] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:15:11,901] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:15:11,905] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.031 seconds
+[2022-11-18 12:15:42,623] {processor.py:163} INFO - Started process (PID=967) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:15:42,626] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:15:42,627] {logging_mixin.py:109} INFO - [2022-11-18 12:15:42,626] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:15:42,649] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:15:42,653] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.034 seconds
+[2022-11-18 12:16:13,452] {processor.py:163} INFO - Started process (PID=1020) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:16:13,455] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:16:13,456] {logging_mixin.py:109} INFO - [2022-11-18 12:16:13,456] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:16:13,494] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:16:13,502] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.057 seconds
+[2022-11-18 12:16:44,023] {processor.py:163} INFO - Started process (PID=1073) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:16:44,025] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:16:44,026] {logging_mixin.py:109} INFO - [2022-11-18 12:16:44,026] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:16:44,049] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:16:44,053] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.035 seconds
+[2022-11-18 12:17:14,251] {processor.py:163} INFO - Started process (PID=1132) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:17:14,254] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:17:14,264] {logging_mixin.py:109} INFO - [2022-11-18 12:17:14,263] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:17:14,524] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:17:14,555] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.358 seconds
+[2022-11-18 12:17:45,394] {processor.py:163} INFO - Started process (PID=1188) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:17:45,398] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:17:45,399] {logging_mixin.py:109} INFO - [2022-11-18 12:17:45,399] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:17:45,440] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:17:45,447] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.057 seconds
+[2022-11-18 12:18:15,617] {processor.py:163} INFO - Started process (PID=1240) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:18:15,622] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:18:15,623] {logging_mixin.py:109} INFO - [2022-11-18 12:18:15,623] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:18:15,651] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:18:15,658] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.045 seconds
+[2022-11-18 12:18:45,799] {processor.py:163} INFO - Started process (PID=1293) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:18:45,801] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:18:45,802] {logging_mixin.py:109} INFO - [2022-11-18 12:18:45,802] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:18:45,830] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:18:45,838] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.044 seconds
+[2022-11-18 12:19:16,347] {processor.py:163} INFO - Started process (PID=1345) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:19:16,352] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:19:16,353] {logging_mixin.py:109} INFO - [2022-11-18 12:19:16,353] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:19:16,370] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:19:16,373] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.030 seconds
+[2022-11-18 12:19:46,454] {processor.py:163} INFO - Started process (PID=1393) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:19:46,459] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:19:46,463] {logging_mixin.py:109} INFO - [2022-11-18 12:19:46,462] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:19:46,494] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:19:46,501] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.051 seconds
+[2022-11-18 12:20:16,763] {processor.py:163} INFO - Started process (PID=1455) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:20:16,765] {processor.py:642} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18 12:20:16,775] {logging_mixin.py:109} INFO - [2022-11-18 12:20:16,775] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:20:16,844] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18 12:20:16,861] {processor.py:171} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.110 seconds
+[2022-11-18T12:29:10.710+0000] {processor.py:154} INFO - Started process (PID=97) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18T12:29:10.712+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18T12:29:10.713+0000] {logging_mixin.py:137} INFO - [2022-11-18T12:29:10.713+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18T12:29:10.725+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18T12:29:10.778+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.077 seconds
+[2022-11-18T12:29:44.186+0000] {processor.py:154} INFO - Started process (PID=154) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18T12:29:44.189+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18T12:29:44.191+0000] {logging_mixin.py:137} INFO - [2022-11-18T12:29:44.191+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18T12:29:44.195+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18T12:29:44.233+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.053 seconds
+[2022-11-18T12:30:24.144+0000] {processor.py:154} INFO - Started process (PID=211) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18T12:30:24.151+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18T12:30:24.154+0000] {logging_mixin.py:137} INFO - [2022-11-18T12:30:24.153+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18T12:30:24.171+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18T12:30:24.236+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.143 seconds
+[2022-11-18T12:30:54.862+0000] {processor.py:154} INFO - Started process (PID=268) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18T12:30:54.866+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18T12:30:54.867+0000] {logging_mixin.py:137} INFO - [2022-11-18T12:30:54.867+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18T12:30:54.870+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18T12:30:54.895+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.037 seconds
+[2022-11-18T12:31:26.910+0000] {processor.py:154} INFO - Started process (PID=333) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18T12:31:26.912+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18T12:31:26.914+0000] {logging_mixin.py:137} INFO - [2022-11-18T12:31:26.913+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18T12:31:26.917+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18T12:31:26.944+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.041 seconds
+[2022-11-18T12:32:42.297+0000] {processor.py:154} INFO - Started process (PID=413) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18T12:32:42.329+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18T12:32:42.336+0000] {logging_mixin.py:137} INFO - [2022-11-18T12:32:42.336+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18T12:32:42.343+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18T12:32:42.487+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.206 seconds
+[2022-11-18T12:33:13.342+0000] {processor.py:154} INFO - Started process (PID=468) to work on /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18T12:33:13.346+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg for tasks to queue
+[2022-11-18T12:33:13.348+0000] {logging_mixin.py:137} INFO - [2022-11-18T12:33:13.348+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18T12:33:13.351+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg
+[2022-11-18T12:33:13.376+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/omniParser/dist/omniparser-1.0.0-py3.10.egg took 0.049 seconds
